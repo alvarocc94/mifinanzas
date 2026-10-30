@@ -1,0 +1,13 @@
+# Descargas crudas de la investigación (subtítulos de YouTube, PDFs, páginas)
+research_notes/**/raw/
+
+# Secretos y datos personales: nunca al repo
+.env
+*.env
+estados-de-cuenta/
+privado/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
