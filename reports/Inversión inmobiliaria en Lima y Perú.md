@@ -1,5 +1,21 @@
 # Compra para vivir, no para alquilar
 
+> **Actualización 2026-10-31: el dueño ya usó MiVivienda.** Compró un loft en Barranco en 2022
+> con Nuevo Crédito MiVivienda y lo vendió en 2026. El Fondo financia como máximo dos veces a una
+> persona, pero "solo el primer crédito… podrá contar con el subsidio". Por eso el dueño **puede
+> volver a usar el crédito** (inicial de 7.5% y hasta 25 años), **pero no el Bono del Buen
+> Pagador ni el Bono Sostenible**.
+>
+> Este informe recomendaba la vivienda propia apoyándose justamente en ese bono, así que esa
+> recomendación no aplica. Sin bono, a 5 años comprar solo le gana a alquilar si la vivienda se
+> aprecia 3.2–5.7% nominal al año, y los distritos objetivo subieron ~1–3%.
+>
+> La decisión vigente es alquilar cerca del trabajo, guardar el fondo de vivienda en soles y
+> revisar en 2027–2028. Detalle en
+> [mivivienda_reacceso.md](../research_notes/Recompra%20de%20vivienda%20tras%20usar%20Mivivienda/mivivienda_reacceso.md)
+> y en [PLAN.md](../PLAN.md). El resto del informe sigue vigente: el análisis por distrito, el
+> descarte del departamento de inversión con hipoteca, el del terreno y FIBRA Prime.
+
 Con los datos disponibles a octubre de 2026, los S/ 50,000 no deberían ir ni a un departamento de inversión con hipoteca ni a un lote cerca de Chancay. El único uso inmobiliario que supera a las alternativas líquidas es una **primera vivienda de hasta S/ 248,300 financiada con Nuevo Crédito Mivivienda y Bono del Buen Pagador (BBP)**, y solo si hoy pagas alquiler (o lo pagarías) y piensas quedarte entre 5 y 10 años. El motivo es aritmético. En los 12 distritos que mide el BCRP, el precio real (precios de oferta, T1-2016→T1-2026) quedó plano en el sector medio (0.0% a −0.4% anual) y cayó en el sector alto (−1.4% a −2.5%); el retorno de Lima es, por tanto, casi todo renta bruta de 5.5–6%, mientras la deuda cuesta 7.69% TEA más ~0.6 pp de seguros. Apalancar 5x un activo que rinde menos que su deuda produce un flujo de **−S/ 758 al mes** en un departamento de S/ 250,000 y una **TIR nominal de +1.1% a 5 años** con 3% anual de plusvalía, que es justamente la mejor plusvalía nominal en soles de la última década. La misma compra hecha como vivienda propia cambia de signo: la renta imputada no paga impuesto ni sufre vacancia, la venta queda exenta y un bono de S/ 21,200–27,600 equivale a la mitad de la inicial. Así, la **TIR equivalente sube a 7.7–9.7% a 10 años** con 2–3% de plusvalía. Tu hipótesis sobre los distritos se sostiene a medias. Lima Moderna supera a Miraflores por 1.1–2.5 pp anuales de retorno total real y a Barranco por hasta 1.4 pp, pero **Pueblo Libre es 5.º de 12**, detrás de Lince, Jesús María, San Miguel y Magdalena, y su salto de +9% en T1-2026 es un solo dato trimestral. Un terreno cerca de un megaproyecto es sobre todo una apuesta sobre el título. Además, al comprarlo pasas a ser propietario y pierdes el acceso a Mivivienda y al BBP. Si no cumples las condiciones de primera vivienda, la recomendación es **S/ 10–15 mil en FIBRA Prime** (7.6–8.3% neto en US$) y el resto en soles como fondo para una inicial futura.
 
 ## Lima Moderna le gana a Lima Top por la renta, no por la plusvalía

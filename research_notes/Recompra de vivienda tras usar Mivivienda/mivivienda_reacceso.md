@@ -50,7 +50,7 @@ Hay que separar el crédito del bono. **El crédito sí está disponible otra ve
 - Hubo otra modificación con el DS 004-2024-VIVIENDA, que cambió los numerales 2.1 y 2.2 del art. 2 del reglamento — [gob.pe, DS 004-2024-VIVIENDA](https://cdn.www.gob.pe/uploads/document/file/6213523/5475501-ds-004-2024-vivienda-29-feb-modif-ley-bono-buen-pagador-1.pdf). Solo se vio el resumen de búsqueda.
 - **DS 011-2026-VIVIENDA:** no es un reglamento de requisitos. Actualiza los **montos y rangos** del BBP (BBP máximo S/ 27,800; el BBP se aplica a viviendas de hasta S/ 367,600) — [El Peruano](https://elperuano.pe/noticia/298367--gobierno-eleva-hasta-s-27800-el-bono-del-buen-pagador-para-facilitar-acceso-a-vivienda); [FMV – tabla BBP](https://fondomivivienda.pe/personas/credito-mivivienda/bono-buen-pagador/)
 
-### Inferencias
+### Inferences
 - **Crédito (NCMV) — sí, probablemente elegible.** Cumple "no propietario", y su primer crédito quedó cancelado al vender, así que no debe nada al FMV. Ha usado 1 de las 2 veces permitidas. Con el segundo, agota el cupo.
 - **BBP y BMS ("Bono Verde") — no.** Hay dos reglas independientes que lo excluyen:
   1. "Solo el primer crédito… podrá contar con el subsidio".
@@ -95,7 +95,7 @@ Lo más coherente con los contratos aprobados por la SBS es que no pagó una com
   - Una búsqueda mostró además una nota de 2022 que ya asignaba S/ 7,300 a ese tramo. Ese conflicto no está resuelto.
 - **Interés legal:** lo fija el BCRP y equivale a la TIPMN, la tasa pasiva promedio en soles — [BCRP, Circular 0008-2021-BCRP](https://www.bcrp.gob.pe/docs/Transparencia/Normas-Legales/Circulares/2021/circular-0008-2021-bcrp.pdf); [BCRP, metadata de tasas](https://www.bcrp.gob.pe/docs/Estadisticas/NEDD/Metadata/Metadata_Tasas.pdf). Como referencia, la tasa de interés legal **laboral** en MN era 1.96% anual al 06-sep-2026 — [SBS](https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TILegalLaboral.aspx). No es la misma tasa, pero también se basa en tasas pasivas.
 
-### Inferencias
+### Inferences
 - **Estimación del reembolso (inferencia).** Supuestos: BBP de S/ 10,800 e interés legal de 2–3.5% anual durante 3.5–4 años. Resultado: **≈ S/ 11,600–12,400**. Si el proyecto era sostenible y recibió BMS, la suma es mayor. Con un BBP de S/ 7,300 serían ≈ S/ 7,800–8,400.
 - **Por qué es la hipótesis más coherente:**
   - es la única obligación de pago que los contratos tipo asocian a cancelar antes de 5 años;
@@ -145,7 +145,7 @@ No encontré ningún programa estatal vigente para el que califique y que sirva 
   - Fuentes (secundarias, solo resumen de búsqueda): [Líbero, 30-jun-2025](https://libero.pe/bonos-y-subsidios/peru/2025/06/30/bono-jovenes-de-18-anos-requisitos-acceder-pago-de-500-soles-2938530); [IUS Latin 2025](https://iuslatin.pe/bono-renta-joven-en-peru-2025-requisitos-y-como-postular-paso-a-paso/); [Expreso](https://www.expreso.com.pe/economia/bono-renta-joven-de-s-500-estos-son-los-requisitos-y-pasos-para-solicitar-el-beneficio-fondo-mivivienda-techo-propio-ministerio-de-vivienda-mvcs-noticia/1095694/)
 - **Novedades:** hay una propuesta de bono adicional para jóvenes de hasta S/ 10,000, sin fecha ni estado claros — [Expreso](https://www.expreso.com.pe/actualidad/jovenes-tendrian-nuevo-bono-para-vivienda-propuesta-contempla-subsidio-adicional-de-hasta-s-10-mil-techo-propio-noticia/1291518/). No encontré ningún programa nacional nuevo de tasa preferencial lanzado en 2026 por el FMV.
 
-### Inferencias
+### Inferences
 - El único instrumento estatal que le queda es el **2º NCMV sin bono**.
 - Techo Propio no aplica por tres razones independientes: el apoyo habitacional previo, el tope de ingreso (probablemente lo supera, dado que tiene S/ 50k ahorrados y trabaja en San Isidro o Lince, aunque no conocemos su ingreso) y el precio máximo de vivienda.
 - **Uso del 25% del fondo AFP para la inicial:** la nota previa lo limita a la "primera vivienda" — [Perú21](https://peru21.pe/economia/afp-sepa-aqui-como-utilizar-el-25-de-su-fondo-para-la-inicial-de-una-vivienda/). Como ya fue propietario, es dudoso que califique, y depende también de si ya lo usó en 2022. Debe preguntarlo a su AFP por escrito.
@@ -200,7 +200,7 @@ No encontré ningún programa estatal vigente para el que califique y que sirva 
 
 Fuentes: [BCRPData – indicadores del mercado inmobiliario](https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/indicadores-del-mercado-inmobiliario) (conversión a S/ en las notas previas); [Urbania, Index Lima jul-2025](https://urbania.pe/blog/wp-content/uploads/2025/08/INDEX_LIMA_REPORTE_2025-07.pdf); [Infobae, 09-may-2026](https://www.infobae.com/peru/2026/05/09/este-es-el-nuevo-distrito-mas-caro-para-comprar-un-departamento-supero-a-barranco-con-un-precio-promedio-de-s-9268/); [El Comercio, 06-may-2026](https://elcomercio.pe/economia/peru/urbania-precios-de-viviendas-en-lima-muestran-una-ligera-alza-del-1-en-lo-que-va-del-2026-l-ultimas-noticia/). El Comercio sitúa a "Lima Moderna" entre S/ 6,000 y S/ 7,000 por m². En abril de 2026 el promedio de Lima era S/ 6,886 por m² — [Infobae, 21-may-2026](https://www.infobae.com/peru/2026/05/21/barranco-y-san-isidro-tienen-los-precios-de-alquiler-mas-altos-de-lima-ambos-superan-los-s-4200-mensuales-en-promedio/).
 
-### Inferencias
+### Inferences
 **A. Precio típico de un departamento de 1–2 dormitorios (inferencia: m² × rango de precio/m² de la tabla)**
 
 | Distrito | 45 m² | 55 m² | 65 m² |
@@ -293,7 +293,7 @@ Supuestos:
 - **Predial:** escala de 0.2% hasta 15 UIT, 0.6% de 15 a 60 UIT y 1.0% sobre 60 UIT del autovalúo — [HaceCuentas](https://hacecuentas.com/pe/impuestos/impuestos-del-inmueble); [BBVA](https://www.bbva.com/es/pe/salud-financiera/como-calcular-los-impuestos-predial-de-alcabala-y-vehicular/) (notas previas)
 - **Venta de casa habitación con ≥ 2 años de propiedad:** la ganancia está exenta del IR (ver sección 6) — [SUNAT](https://personas.sunat.gob.pe/sites/default/files/archivos/venta%20inmueble.pdf)
 
-### Inferencias
+### Inferences
 **A. Alquiler estimado (inferencia)**
 
 Método 1: renta por m² de Urbania jul-2025 × 1.066 (alza de 2026). Método 2: precio × rentabilidad del distrito / 12.
@@ -386,9 +386,9 @@ Si el loft fue su **único inmueble** y lo tuvo **≥ 2 años** (2022 → 2026, 
 - El formato de la comunicación se aprobó con la **Resolución de Superintendencia 081-2010-SUNAT** — [El Peruano](https://elperuano.pe/noticia/137556-atencion-propietarios-conozca-aqui-las-nuevas-formalidades-para-venta-de-inmuebles-desde-el-2022)
 - **Definición de casa habitación** (notas previas): el "inmueble que permanece en propiedad del transferente por lo menos dos (2) años y que no esté destinado a fines empresariales" — [SUNAT – Venta de inmuebles](https://personas.sunat.gob.pe/sites/default/files/archivos/venta%20inmueble.pdf). Otra fuente añade "comercio, industria, oficina o almacén" como destinos excluidos — [La Cámara](https://lacamara.pe/?p=73339)
 - **Carácter definitivo y declaración anual:** el pago con el Formulario 1665 "es de carácter definitivo" y **no se regulariza en la declaración anual** del año siguiente — [La Cámara](https://lacamara.pe/?p=73070) (secundaria, vista solo como resumen). El título del formato SUNAT habla de "impuesto **definitivo** de Segunda categoría" — [SUNAT](https://personas.sunat.gob.pe/sites/default/files/archivos/venta%20inmueble.pdf)
-- **Habitualidad:** según el resumen de búsqueda de una guía, se presume habitualidad cuando se venden dos o más inmuebles en 12 meses (aplica desde la segunda transferencia). Con una sola venta no aplica — [Fondo MIVIVIENDA, preguntas frecuentes (portal antiguo)](https://www.mivivienda.com.pe/PORTALWEB/usuario-busca-viviendas/preguntas-frecuentes.aspx). Fuente antigua; no verifiqué el umbral exacto vigente.
+- **Habitualidad:** un resumen de búsqueda atribuido al portal antiguo de preguntas frecuentes del FMV dice que se presume habitualidad "si vendiste dos inmuebles en un período de 12 meses" — [Fondo MIVIVIENDA, preguntas frecuentes (portal antiguo)](https://www.mivivienda.com.pe/PORTALWEB/usuario-busca-viviendas/preguntas-frecuentes.aspx). **No verificado; podría contradecir la LIR**, que en mi recuerdo (no comprobado en esta sesión) fija la habitualidad a partir de la 3.ª enajenación en un mismo ejercicio. Con todo, el umbral no cambia el resultado: una sola venta en 2026 no configura habitualidad con ninguna de las dos lecturas.
 
-### Inferencias
+### Inferences
 - **Aplicación a su caso.** Condiciones:
   - fue su único inmueble (dice no tener otros);
   - lo tuvo ~4 años;
