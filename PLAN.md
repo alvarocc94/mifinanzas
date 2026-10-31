@@ -59,15 +59,19 @@ sin cubrir y la parte defensiva queda en soles.
 
 Ingreso bruto ~S/ 130,000 al año, así que la marginal es **14%**. El tramo de 14% llega hasta
 ~S/ 148,500 brutos, con la deducción de 7 UIT. Con esa marginal, las vías comparadas a 20
-años quedan así:
+años quedan así (modelo con US$ 6,800, 7% anual, todos los costos incluidos y tu ingreso de
+S/ 130k; recalculado en `alpaca_peru_y_hapi_vs_ibkr.md`):
 
 | Vía | Patrimonio final frente a SPYL | Riesgos |
 |---|---|---|
-| **SPYL** (Irlanda) vendido en IBKR, tributa a tu escala | referencia | ninguno estructural |
-| VOO comprado fuera y vendido por la BVL al 6.25% | +1.5% | la liquidez de VOO en la BVL no está verificada |
-| SPY comprado fuera y vendido por la BVL (liquidez documentada, US$ 50–100k diarios) | ~+0.2% (aprox.: el TER de SPY, 0.0945%, se come ~1.3%) | estate tax de EE.UU. por encima de US$ 60k, que SUNAT no se pronuncie y transferir por DTC a una SAB |
+| **SPYL** (Irlanda) en IBKR, vendido **por tramos** a tu escala | referencia (US$ ~22,460) | ninguno estructural. Venderlo todo en un año cuesta −1.5%, y −5.1% si hubo aportes |
+| VOO en Hapi → DTC a una SAB → venta en la BVL al 6.25% | +1.8% a +2.4% (US$ 400–540) | Hapi no publica su tipo de cambio; las cifras del costo DTC se contradicen; la liquidez de VOO en la BVL no está verificada |
+| SPY por la misma vía (liquidez documentada, US$ 50–100k diarios) | +1.2% | en ambas vías BVL: estate tax de EE.UU. por encima de US$ 60k (con aportes, hacia el año 11–12) y que SUNAT no se ha pronunciado |
 
-Con un empate en retorno, SPYL gana por riesgo y simplicidad:
+La ventaja de la vía BVL, ~2% en 20 años, cabe dentro de la incertidumbre de sus propios
+costos no verificados. Por eso SPYL gana por riesgo y simplicidad. Además, **Hapi no puede
+comprar SPYL**: su tarifario del 29-abr-2026 dice "US Listed Securities", así que SPYL exige
+IBKR. Otras razones a favor de SPYL:
 - No tiene exposición al estate tax de EE.UU.
 - No depende de un criterio de SUNAT sobre la vía BVL.
 - No requiere transferir títulos para vender.
@@ -108,6 +112,18 @@ Detalle en `research_notes/Invertir en bolsa desde Perú/comisiones_fondeo_y_bro
   factor. IBKR evita un segundo wire y un segundo bróker. Decide si Alpaca acepta Perú.
   Tastytrade podría ser una opción, pero no se confirmó que acepte Perú. Hapi y Tyba no tienen
   API, y XTB y eToro están descartados.
+- **Alpaca y Perú:** no hay respuesta pública. Alpaca no publica su lista de países; su guía de
+  no residentes dice "195+ countries" sin detallarlos. Para comprobarlo, inicia la solicitud de
+  cuenta live desde tu dashboard y revisa si Perú aparece en "Country of tax residence". Si
+  acepta, el depósito mínimo es US$ 1 y se fondea con un wire en USD aparte. Abrir sin
+  apalancamiento por API: `max_margin_multiplier="1"` y `no_shorting=true`.
+- **Hapi:** Hapi Securities LLC (FINRA/SIPC, custodia en Apex).
+  - Tarifas (29-abr-2026): comisión US$ 0 más US$ 0.10–0.15 de clearing; depósito en soles
+    US$ 1.99 sin tipo de cambio publicado; retiro US$ 7.99 a cuenta peruana o US$ 20 por
+    wire; ACATS saliente US$ 75.
+  - Tiene versión web, pero el segundo factor es biométrico (passkey) y el depósito en soles
+    se hace desde la app. Sin TOTP documentado.
+  - Solo tendría sentido para la vía VOO→BVL, y esa vía no se elige con marginal de 14%.
 
 ## Ahorro en dólares y Binance Earn (consultado el 2026-10-31)
 
