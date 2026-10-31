@@ -8,7 +8,7 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 | # | Tema | Informe | Estado |
 |---|---|---|---|
 | 1 | Ahorro y DPF en Perú: rendimiento y protección (incluye operar sin app) | — | en curso |
-| 2 | Inmuebles: departamentos en Lima y terrenos con potencial de valorización | — | pendiente |
+| 2 | Inmuebles: departamentos en Lima y terrenos con potencial de valorización | — | en curso |
 | 3 | Bolsa desde Perú: ETFs y trading (brokers, impuestos, costos) | — | pendiente |
 | 4 | Asignación de los S/ 100,000 | [PLAN.md](PLAN.md) | borrador, espera 1-3 |
 
