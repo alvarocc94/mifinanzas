@@ -1,5 +1,39 @@
 # Indexa en Irlanda y acota el trading
 
+> **Actualización 2026-10-31: contraste con Bolsillos Llenos.** Revisión de 16 videos del canal,
+> de 2021 a octubre de 2026, contrastados con el texto de la LIR. Detalle en
+> [youtube_bolsillos_llenos.md](../research_notes/Invertir%20en%20bolsa%20desde%20Per%C3%BA/youtube_bolsillos_llenos.md).
+> Cambian cinco puntos de este informe:
+>
+> 1. **Hay una vía BVL que este informe no evaluó: comprar fuera, transferir y vender por la
+>    BVL.** Se compra un ETF de EE.UU. inscrito en el RPMV (SPY, VOO o QQQ) en un bróker
+>    extranjero. Los títulos se transfieren por DTC a una SAB peruana, se pasan al mercado
+>    local y se venden por la BVL. Esa venta paga **6.25% fijo** en lugar de la escala de 8–30%
+>    (art. 51, 2.º párrafo, y art. 52-A), porque la ley no exige haber comprado en la BVL.
+>    - **Costo:** ~US$ 45 fijos por valor y 2–3 semanas de trámite, frente al 2–5% de
+>      comprar y vender por una SAB que se usa más abajo.
+>    - **Resultado:** con tasa marginal de **14% o más**, VOO comprado fuera y vendido por la
+>      BVL supera a VWRA y a SPYL. La riqueza final a 20 años sale +1.5%, +4.2% y +15.9% mayor
+>      con marginales de 14%, 17% y 30%. Con 8%, sigue ganando SPYL.
+>    - **A cambio:** queda expuesto al estate tax de EE.UU. por encima de US$ 60k. Además,
+>      SUNAT no se ha pronunciado, el régimen puede cambiar y **no está verificado que IBKR
+>      transfiera por DTC a una SAB peruana**. El caso documentado usó Hapi.
+>    - **Conclusión corregida:** el ETF depende de tu tasa marginal. Ver PLAN.md.
+> 2. **Si vendes por la BVL,** CAVALI retiene 5% y el 1.25% restante se paga en la
+>    declaración anual. Tienes que informar el costo a la SAB; si no, la retención se calcula
+>    sobre todo el importe de la venta.
+> 3. **El costo de las acciones es el promedio ponderado** (art. 21.2 e), no FIFO.
+> 4. **Ganancias y pérdidas van en canastas separadas.** Las pérdidas del trading en el
+>    exterior no compensan ganancias vendidas por la BVL, ni a la inversa.
+> 5. **Los dividendos extranjeros se declaran brutos,** con la retención de EE.UU. como
+>    crédito hasta la tasa media (art. 88 e). El método de "declarar neto" de un video de 2021
+>    paga de más.
+>
+> Sin cambios: el análisis de UCITS, el del estate tax y el del trading. Bolsillos Llenos no
+> tiene videos sobre UCITS, estate tax ni W-8BEN. Además, el canal vende un programa de pago y
+> pone enlaces de referido a XTB, Hapi y Tyba, aunque sus dos videos sobre la vía BVL no
+> llevan enlaces comerciales.
+
 Para un residente peruano a fines de 2026, la ruta más sólida es abrir una cuenta en **Interactive Brokers**, que previsiblemente llevará Interactive Brokers LLC (EE.UU.), aunque hay que confirmarlo. Con ella se compra un solo ETF irlandés de acumulación, **VWRA** (Vanguard FTSE All-World UCITS, IE00BK5BQT80, TER 0.14%, cotiza en Londres en USD). La pierna defensiva la cubre el DPF en soles que ya tienes, así que no hace falta un ETF de bonos. Recomiendo cambiar el reparto de S/ 20,000 / 10,000 a **S/ 23,500 en VWRA y S/ 6,500 de trading**, en una cuenta live separada en Alpaca. Hay dos razones. La información que produce un experimento de trading depende del número de operaciones, no del capital. Y por debajo de US$ 2,000 de patrimonio Alpaca no concede margen. Con un *kill switch* a −30%, la pérdida máxima del experimento queda en unos **S/ 2,250 con transferencias incluidas**, alrededor de una novena parte de los S/ 20,000 que estarías dispuesto a perder. En lo fiscal, VWRA paga 15% de retención estadounidense dentro del fondo, frente al 30% que pagarías tú con VT o VOO porque Perú no tiene tratado con EE.UU. Además no está expuesto al estate tax de EE.UU. y no genera renta en Perú hasta que vendes. Al vender, la ganancia es renta de fuente extranjera gravada a tu tasa marginal (8–30%), y la pérdida neta de fuente extranjera de un año no se aprovecha nunca. La contradicción sobre la regla PDT se resuelve a favor de la nota de trading: la SEC aprobó la enmienda a la Regla FINRA 4210 el 14-abr-2026, rige desde el 4-jun-2026 y Alpaca eliminó la designación PDT ese mismo día. Eso quita el freno que antes imponía la regla: ahora los límites los pones tú. Quedan pendientes tres verificaciones que bloquean la elección de bróker: qué entidad de IBKR atiende a Perú, si IBKR permite 2FA sin su app y si Alpaca acepta residentes peruanos en cuentas live. Ninguna cuesta más que un formulario o un correo.
 
 ## VWRA irlandés ahorra ~0.3 pp al año frente a VT y elimina el estate tax
