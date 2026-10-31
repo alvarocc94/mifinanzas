@@ -24,8 +24,12 @@ Situación de vivienda (dicha por el dueño el 2026-10-31):
 - Piensa quedarse en Lima al menos 5 años.
 - Hoy no tiene inmuebles a su nombre. Tuvo un loft en Barranco comprado en 2022 con
   **Nuevo Crédito MiVivienda** (S/ 240k, inicial S/ 24k), vendido a inicios de 2026 en
-  S/ 288k, pagando una penalidad a MiVivienda. Cree que puede volver a acceder a MiVivienda:
-  **no está verificado** y condiciona toda la recomendación inmobiliaria.
+  S/ 288k, pagando una penalidad a MiVivienda. Esa venta fue exenta como casa habitación y se
+  tramitó en notaría.
+- **MiVivienda (verificado el 2026-10-31):** puede volver a usar el crédito, por ser el segundo
+  y último, pero no el bono. Ver PLAN.md.
+- **Ingresos:** por encima de ~S/ 66,000 al año, así que su tasa marginal del impuesto a la
+  renta es 14% o más. Esto decide que el ETF sea VOO con salida por la BVL.
 
 ## Preferencias del dueño
 - **Seguridad antes que rendimiento** en ahorro: prefiere no tener apps bancarias en el
