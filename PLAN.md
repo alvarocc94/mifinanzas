@@ -112,10 +112,17 @@ Detalle en `research_notes/Invertir en bolsa desde Perú/comisiones_fondeo_y_bro
   factor. IBKR evita un segundo wire y un segundo bróker. Decide si Alpaca acepta Perú.
   Tastytrade podría ser una opción, pero no se confirmó que acepte Perú. Hapi y Tyba no tienen
   API, y XTB y eToro están descartados.
-- **Alpaca y Perú:** no hay respuesta pública. Alpaca no publica su lista de países; su guía de
-  no residentes dice "195+ countries" sin detallarlos. Para comprobarlo, inicia la solicitud de
-  cuenta live desde tu dashboard y revisa si Perú aparece en "Country of tax residence". Si
-  acepta, el depósito mínimo es US$ 1 y se fondea con un wire en USD aparte. Abrir sin
+- **Alpaca y Perú:** el formulario de cuenta live acepta Perú como "Country of Tax Residence"
+  (comprobado por el dueño el 2026-10-31). La aprobación final depende del KYC, el último paso.
+  - **Retiros:** wire internacional US$ 35, más US$ 0–30 de corresponsales y US$ 25 que cobra
+    Interbank por recibir: ≈US$ 60–90 por retiro (6.4% sobre US$ 1,000). Conviene un solo
+    retiro, al cerrar el experimento.
+  - **Salida de títulos:** DTC US$ 5 por valor, ACATS US$ 25.
+  - Solo acepta depósitos en USD. La conversión local de 1.5% no incluye Perú.
+  - Entrar y salir cuesta ≈US$ 100–150 en total, unos S/ 200–350 más que una segunda cuenta en
+    IBKR, que va en el mismo wire del núcleo y tiene un retiro gratis al mes. A cambio reutiliza
+    Quantac y su API.
+  - Si acepta, el depósito mínimo es US$ 1 y se fondea con un wire en USD aparte. Abrir sin
   apalancamiento por API: `max_margin_multiplier="1"` y `no_shorting=true`.
 - **Hapi:** Hapi Securities LLC (FINRA/SIPC, custodia en Apex).
   - Tarifas (29-abr-2026): comisión US$ 0 más US$ 0.10–0.15 de clearing; depósito en soles
@@ -173,10 +180,13 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       veces y qué tasa e inicial aplican a un segundo crédito sin bono.
 - [ ] Pedir al banco la liquidación de la cancelación de 2022–2026 para confirmar que la
       "penalidad" fue la devolución del bono.
+- [ ] Al abrir la SAB para FIBRA Prime, pedir su tarifario para comprar y vender SPY en la BVL
+      (comisión, custodia, tipo de cambio). Si el total es bajo, comprar SPY directo por la SAB
+      es la vía BVL más simple: sin wire y sin DTC.
 - [ ] IBKR: entidad para Perú, TOTP disponible para Perú y comisiones de SafetyPay para
       aportes en soles.
-- [ ] Alpaca: cuentas live para Perú y estado del nuevo margen intradía, que reemplazó a la
-      regla PDT. Si se confirma, actualizar el CLAUDE.md de Quantac ("Restricción PDT activa").
+- [~] Alpaca: el formulario acepta Perú (2026-10-31); falta la aprobación del KYC. Revisar el
+      estado del nuevo margen intradía, que reemplazó a la regla PDT. Si se confirma, actualizar el CLAUDE.md de Quantac ("Restricción PDT activa").
 
 ## Historial
 
