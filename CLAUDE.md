@@ -17,6 +17,16 @@ Asignación tentativa del dueño (2026-10-29), **pendiente de validar con la inv
 
 La decisión vigente vive en `PLAN.md`, no aquí.
 
+Situación de vivienda (dicha por el dueño el 2026-10-31):
+- Vive en casa de sus padres en Los Olivos y aporta ~S/ 1,500 al mes. No paga alquiler.
+- Su trabajo está en San Isidro/Lince. Quiere mudarse cerca: San Isidro, Lince, Jesús María o
+  Pueblo Libre, cualquiera antes que seguir viajando desde el cono norte.
+- Piensa quedarse en Lima al menos 5 años.
+- Hoy no tiene inmuebles a su nombre. Tuvo un loft en Barranco comprado en 2022 con
+  **Nuevo Crédito MiVivienda** (S/ 240k, inicial S/ 24k), vendido a inicios de 2026 en
+  S/ 288k, pagando una penalidad a MiVivienda. Cree que puede volver a acceder a MiVivienda:
+  **no está verificado** y condiciona toda la recomendación inmobiliaria.
+
 ## Preferencias del dueño
 - **Seguridad antes que rendimiento** en ahorro: prefiere no tener apps bancarias en el
   celular. Operar solo por web, o con un DPF que exija ir en persona, es una ventaja, no un
