@@ -28,8 +28,9 @@ Situación de vivienda (dicha por el dueño el 2026-10-31):
   tramitó en notaría.
 - **MiVivienda (verificado el 2026-10-31):** puede volver a usar el crédito, por ser el segundo
   y último, pero no el bono. Ver PLAN.md.
-- **Ingresos:** por encima de ~S/ 66,000 al año, así que su tasa marginal del impuesto a la
-  renta es 14% o más. Esto decide que el ETF sea VOO con salida por la BVL.
+- **Ingresos:** ~S/ 130,000 brutos al año, así que su tasa marginal del impuesto a la renta
+  es 14%. Podría subir en los próximos años; el umbral del 17% está en ~S/ 148,500. Esto decide
+  el ETF (ver PLAN.md).
 
 ## Preferencias del dueño
 - **Seguridad antes que rendimiento** en ahorro: prefiere no tener apps bancarias en el

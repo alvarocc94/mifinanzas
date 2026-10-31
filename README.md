@@ -19,7 +19,7 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 - **2026-10-31:** informes 1, 2 y 3 listos, más el contraste con Bolsillos Llenos y la
   verificación de MiVivienda.
   - **PLAN v1:** S/ 20k de reserva (DPF + Pibank), S/ 40k de fondo de vivienda en soles,
-    S/ 10k en FIBRA Prime, S/ 23.5k en un ETF (VOO o VWRA según la tasa marginal) y S/ 6.5k
+    S/ 10k en FIBRA Prime, S/ 23.5k en SPYL vía IBKR y S/ 6.5k
     de trading tras 8 semanas en paper.
   - **No se compra vivienda ahora:** sin el bono de MiVivienda, alquilar gana en el escenario
     base.
