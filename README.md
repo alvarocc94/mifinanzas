@@ -12,6 +12,7 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 | 3 | Bolsa desde Perú: ETFs y trading (brokers, impuestos, costos) | [informe](reports/Invertir%20en%20bolsa%20desde%20Per%C3%BA.md) | ✅ 2026-10-31 · actualizado con Bolsillos Llenos |
 | 2b | ¿Puedo volver a usar MiVivienda? | [notas](research_notes/Recompra%20de%20vivienda%20tras%20usar%20Mivivienda/mivivienda_reacceso.md) · resumen en el informe 2 | ✅ 2026-10-31 · crédito sí, bono no |
 | 4 | Asignación de los S/ 100,000 | [PLAN.md](PLAN.md) | ✅ v1 2026-10-31 |
+| 5 | Qué SAB usar para FIBRA Prime, y SPYL en la BVL | [notas](research_notes/Elegir%20SAB/sab_fibra_y_via_bvl.md) · resumen en PLAN.md | ✅ 2026-11-07 · Renta 4; SPYL por confirmar |
 
 ## Estado actual
 
@@ -24,3 +25,10 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
   - **No se compra vivienda ahora:** sin el bono de MiVivienda, alquilar gana en el escenario
     base.
   - **Próximo paso:** las verificaciones pendientes de PLAN.md.
+- **2026-11-05:** DPF reverificados; Alfin renovada hasta el 17-nov. Vista de lectura publicada
+  como artefacto.
+- **2026-11-07:** bono MiVivienda devuelto (~S/ 16,500, confirmado).
+  - **SAB:** Renta 4 para FIBRA Prime, la única sin custodia ni mantenimiento entre los 20
+    tarifarios de la SMV.
+  - **SPYL:** está listado en la BVL. Si Renta 4 puede comprarlo y venderlo en la rueda, el
+    núcleo podría salir de IBKR.

@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Reserva de ahorro | S/ 20,000 | 3 DPF de S/ 5,000 en Alfin a 360 días (5.65% TREA, en agencia, sin app ni tarjeta) + S/ 5,000 en Pibank (5%) con la app solo en un celular dedicado que no sale de casa | Informe 1. Con este monto el FSD cubre el principal; el riesgo real es el robo del celular, así que primero va el canal y después la tasa |
 | Fondo de vivienda | S/ 40,000 | DPF en soles a 360 días, repartido en dos entidades A- (p. ej. S/ 20k en Alfin y S/ 20k en Caja Arequipa, Caja Huancayo o Efectibank) | No comprar todavía (ver abajo). Es dinero que puede convertirse en inicial en 2–5 años, así que va en soles y sin riesgo de mercado |
-| Inmuebles sin deuda | S/ 10,000 | FIBRA Prime (BVL), por una SAB local | Exposición inmobiliaria sin hipoteca: ~7.6–8.3% neto en US$ (oct-2026). No más, porque es un solo emisor y está en dólares |
+| Inmuebles sin deuda | S/ 10,000 | FIBRA Prime (BVL), por **Renta 4 SAB** (ver "SAB para FIBRA Prime") | Exposición inmobiliaria sin hipoteca: ~7.3% neto en US$ (TTM de distribuciones a nov-2026; en oct-2026 se tomó 7.6–8.3% de la guía). No más, porque es un solo emisor y está en dólares |
 | Núcleo indexado | S/ 23,500 | **SPYL** (S&P 500, Irlanda, acumulación, TER 0.03%) en Interactive Brokers, operado por web (ver abajo) | Informe 3 y su actualización. Con Quantac, el índice fue la vara que nada superó |
 | Experimento de trading | S/ 6,500 | Alpaca live si acepta residentes peruanos; si no, una segunda cuenta *cash* (sin margen) en IBKR. Solo después de 8 semanas en paper, con las reglas del informe 3 | Da la misma información que S/ 10,000 y pierde menos. Pérdida máxima ≈ S/ 2,250 con el kill switch al −30% |
 | **Total** | **S/ 100,000** | | |
@@ -34,8 +34,10 @@ sin cubrir y la parte defensiva queda en soles.
   máximo dos veces a una persona, y "solo el primer crédito… podrá contar con el subsidio"
   (fichas del Fondo en gob.pe, vistas el 31-oct-2026). Tu intuición de que "como ya no tengo
   nada, vuelvo a calificar" vale para el crédito, no para el subsidio. La "penalidad" que
-  pagaste al vender fue, muy probablemente, la devolución del Bono del Buen Pagador más
-  intereses, porque cancelaste antes de los 5 años. Una comisión por prepago está prohibida.
+  pagaste al vender fue la devolución del bono: ~S/ 16,500 descontados en la liquidación
+  (confirmado por el dueño el 2026-11-07), por cancelar antes de los 5 años. No encontré una
+  regla que devuelva la elegibilidad a quien reembolsó el bono, pero se pregunta por escrito
+  (ver pendientes).
 - **Sin bono, la cuenta cambia de signo.** El informe 2 recomendaba la vivienda propia porque
   el bono (S/ 21–28k) y la inicial de 7.5% le ganaban a todo. Sin bono, a 5 años comprar en
   Lince, Jesús María, Pueblo Libre o Magdalena solo conviene si la vivienda se aprecia
@@ -87,6 +89,23 @@ gana unos 3 puntos a 20 años. En ese caso, **los aportes nuevos** van a SPY par
 la BVL, y lo ya comprado en SPYL se queda donde está. La decisión se toma aporte por aporte y no
 obliga a vender nada.
 
+**Pendiente de una respuesta de Renta 4 (2026-11-07): SPYL también está listado en la BVL.** El
+boletín de la BVL lista SPYL y CSPX como valores extranjeros, con Inteligo SAB como agente
+promotor. Si una SAB puede comprar SPYL y, años después, venderlo en la rueda, se juntan tres
+cosas:
+- la salida al 6.25% de la vía BVL;
+- la ausencia de estate tax;
+- la acumulación.
+
+Estimado: ~+6% de patrimonio a 20 años frente a IBKR, incluso con marginal de 14%. El problema es
+la liquidez: SPYL cotizó en el 5% de las sesiones. Regla de decisión:
+- **Sí, en la rueda, en ambos sentidos,** con ≤0.7% por lado todo incluido y sin custodia: el
+  núcleo va a SPYL en Renta 4 y no se abre IBKR para el núcleo.
+- **Solo SPY:** se mantiene SPYL en IBKR.
+- **Sin venta asegurada en la rueda:** se mantiene SPYL en IBKR.
+
+Detalle en `research_notes/Elegir SAB/sab_fibra_y_via_bvl.md`.
+
 ## Brokers y costos de mover el dinero (verificado el 2026-10-31)
 
 Detalle en `research_notes/Invertir en bolsa desde Perú/comisiones_fondeo_y_brokers_trading.md`.
@@ -132,6 +151,36 @@ Detalle en `research_notes/Invertir en bolsa desde Perú/comisiones_fondeo_y_bro
     se hace desde la app. Sin TOTP documentado.
   - Solo tendría sentido para la vía VOO→BVL, y esa vía no se elige con marginal de 14%.
 
+## SAB para FIBRA Prime: Renta 4 (decidido el 2026-11-07)
+
+Detalle y fuentes en `research_notes/Elegir SAB/sab_fibra_y_via_bvl.md`: los 20 tarifarios de la
+SMV y los boletines de la BVL.
+
+- **Lo que separa a las SAB con S/ 10,000 es el costo de tener los valores**, no la comisión
+  por operación. Hay quien cobra S/ 4–35 al mes de mantenimiento o custodia, o un porcentaje de
+  cada dividendo. A 5 años eso es 4–21% de la posición:
+  - Seminario: S/ 4 al mes si no operas.
+  - Grupo Coril: US$ 3 al mes más 3% de cada dividendo.
+  - Inteligo: hasta US$ 5 al mes más US$ 1.30 por dividendo.
+  - BBVA Bolsa y Credicorp: S/ 15 al mes.
+  - Scotia: hasta S/ 35 al mes.
+- **Renta 4** es la única cuyo tarifario oficial dice que no cobra custodia, mantenimiento ni
+  cobro de dividendos.
+  - **Comisión web:** 0.43%, mínimo US$ 15, más IGV y ~0.105% de cargos de BVL, CAVALI y SMV.
+    Sobre S/ 10,000: **~US$ 20.7 (0.72%) por lado**.
+  - **Retirar:** S/ 20 o US$ 7 por transferencia, así que conviene una vez al año.
+  - **Atención:** plataforma web y oficina en San Isidro (Av. Víctor Andrés Belaúnde 147).
+- **trii** (Kallpa) cuesta parecido y retirar es gratis, pero va primero por app. Además, el
+  tarifario formal de Kallpa incluye mantenimiento de S/ 10 al mes y S/ 5 por cobro de dividendo.
+  Antes de elegirla habría que descartar por escrito que eso aplique.
+- **Ejecución:**
+  - Una sola orden límite de ~423 certificados a ~US$ 6.85, válida varios días. FIBPRIME negocia
+    US$ 3–35 mil al día y su formador de mercado (Grupo Coril) cotiza con ~4% de spread.
+  - Al vender, informa tu costo a la SAB para que la retención de 5% sea sobre la ganancia.
+- **Rendimiento revisado:** TTM de US$ 0.52 por certificado: 7.6% bruto y ~7.3% neto a US$ 6.83.
+  Más de un tercio es "exceso de caja", y el pago de noviembre (US$ 0.025) es el más bajo del año,
+  tras la sexta colocación (US$ 40 millones).
+
 ## Ahorro en dólares y Binance Earn (consultado el 2026-10-31)
 
 No forma parte del plan, por dos razones:
@@ -162,8 +211,8 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 
 | Cuándo | Qué |
 |---|---|
-| **Lun 02-nov-2026** | Último día de la campaña de Alfin (o antes, si capta S/ 20 MM). Si vas, lleva las preguntas del informe 1: TREA en la cartilla, sin renovación automática, sin tarjeta ni usuario digital |
-| Noviembre 2026 | Abrir IBKR: confirmar la entidad (IB LLC) y activar el Mobile Authenticator con TOTP en un gestor de contraseñas. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Abrir una SAB para FIBRA Prime. Configurar Pibank en el celular dedicado |
+| **Mar 17-nov-2026** | Último día de la campaña de Alfin, renovada del 03 al 17-nov con las mismas tasas, o antes si capta S/ 20 MM (verificado el 2026-11-05). Lleva las preguntas del informe 1: TREA en la cartilla, sin renovación automática, sin tarjeta ni usuario digital. Los otros S/ 20k del fondo de vivienda van a Financiera Confianza a 361 días (5.00%, solo en oficinas, campaña hasta el 30-nov) |
+| Noviembre 2026 | Abrir Renta 4 SAB y comprar FIBRA Prime; antes, hacerle por escrito las preguntas sobre SPYL en la BVL (ver pendientes). Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
 | Nov–dic 2026 | Cambiar soles a dólares en una fintech, mandar un solo wire a IBKR y comprar SPYL. Si el trading va en IBKR, incluir los ~US$ 1,850 en el mismo wire. 8 semanas de trading en paper con las reglas escritas en git |
 | 31-dic-2026 | Vence la exoneración del IR sobre intereses de depósitos (la prórroga, PL 509, no está aprobada) |
 | 02-ene-2027 | Si el paper salió bien en disciplina, arranca el trading live con S/ 6,500, sin reponer nunca |
@@ -176,13 +225,23 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       marginal es 14% y el ETF es SPYL. Revisar si pasa de ~S/ 148,500.
 - [x] Venta del loft: exenta como casa habitación y tramitada en notaría (confirmado por el
       dueño el 2026-10-31).
-- [ ] Pedir por escrito al Fondo MiVivienda: si el crédito de 2022 cuenta para el límite de dos
-      veces y qué tasa e inicial aplican a un segundo crédito sin bono.
-- [ ] Pedir al banco la liquidación de la cancelación de 2022–2026 para confirmar que la
-      "penalidad" fue la devolución del bono.
-- [ ] Al abrir la SAB para FIBRA Prime, pedir su tarifario para comprar y vender SPY en la BVL
-      (comisión, custodia, tipo de cambio). Si el total es bajo, comprar SPY directo por la SAB
-      es la vía BVL más simple: sin wire y sin DTC.
+- [ ] Pedir por escrito al Fondo MiVivienda:
+      - si el crédito de 2022 cuenta para el límite de dos veces;
+      - qué tasa e inicial aplican a un segundo crédito sin bono;
+      - si haber devuelto el bono íntegro con intereses (~S/ 16,500) te vuelve a habilitar para
+        el subsidio. Si la respuesta es sí, el análisis de vivienda cambia de signo.
+- [x] La "penalidad" fue la devolución del bono: ~S/ 16,500 descontados en la liquidación
+      (confirmado por el dueño el 2026-11-07).
+- [x] Tarifario de la SAB: Renta 4 cobra 0.43% web (mínimo US$ 15) y no cobra custodia ni
+      mantenimiento. SPY en la rueda costaría ~0.6% por lado (2026-11-07).
+- [ ] Preguntar por escrito a Renta 4:
+      - si puede comprar **SPYL** (IE000XZSV718) o CSPX en la rueda de la BVL, y venderlos años
+        después también en la rueda;
+      - cómo ejecuta si no hay oferta y a qué precio frente a Londres;
+      - si la custodia de valores extranjeros es sin costo;
+      - qué pasa si la BVL excluye el valor;
+      - cuánto cuesta transferir a Interbank.
+      La regla de decisión está en la sección del ETF.
 - [ ] IBKR: entidad para Perú, TOTP disponible para Perú y comisiones de SafetyPay para
       aportes en soles.
 - [~] Alpaca: el formulario acepta Perú (2026-10-31); falta la aprobación del KYC. Revisar el
@@ -197,3 +256,13 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
   fue exenta. Con 14% la vía BVL empata con SPYL, así que el núcleo va a SPYL; si el ingreso
   pasa de ~S/ 148.5k, los aportes nuevos irán a SPY con salida por la BVL. Se agrega la
   comparación de brokers y de costos de fondeo.
+- 2026-11-05: se reverifican los DPF.
+  - Alfin renovó su campaña hasta el 17-nov con las mismas tasas.
+  - Confianza paga 5.00% desde 361 días.
+  - La inflación de Lima a octubre fue 5.25%.
+  - La vista de lectura se publica como artefacto.
+- 2026-11-07: el dueño confirma que devolvió el bono (~S/ 16,500).
+  - Se elige Renta 4 SAB para FIBRA Prime tras revisar los 20 tarifarios de la SMV.
+  - Se revisa el rendimiento de FIBRA a ~7.3% neto (TTM).
+  - Se encuentra SPYL listado en la BVL, una posible mejora del núcleo que depende de la respuesta
+    de Renta 4.
