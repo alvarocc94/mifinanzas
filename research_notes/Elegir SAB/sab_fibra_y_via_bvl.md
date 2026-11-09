@@ -223,9 +223,86 @@ Inteligo también promueve otros UCITS (AGGU, CBU0, CBU7, CRPU, CSKR…).
   - Como la devolución fue total, vale la pena preguntarlo por escrito al Fondo. Si la respuesta
     fuera sí, el análisis de vivienda cambia de signo (informe 2).
 
+## 7. El piso de la comisión mínima (validado el 2026-11-09)
+
+El dueño trajo un cálculo de otra fuente:
+- con 0.43% y mínimo de S/ 40, la tarifa plena de Renta 4 empieza en S/ 9,302;
+- frente al 0.6% de trii, Renta 4 es más barata desde S/ 6,667.
+
+Las cuentas están bien, pero son para órdenes en soles. FIBRA Prime y SPYL se negocian en dólares.
+
+**Lo verificado el 2026-11-09:**
+- **Tarifario de Renta 4 en la SMV:** renta variable al contado, 0.05–1.50% con mínimo de
+  S/ 40.00 o US$ 15.00, "aplicada a cada orden ejecutada" y cobrada en la liquidación. Dice
+  "tarifas no incluyen IGV".
+- **[renta4.pe](https://www.renta4.pe/que-necesitas/tarifas-bolsas):** "las operaciones web en el
+  mercado local aplican una comisión porcentual del 0.43%", con mínimo de 40 soles o 15 dólares,
+  "por cada operación ejecutada". La página menciona además US$ 25, que es el mínimo del mercado
+  internacional (0.65%).
+- **[trii.pe](https://trii.pe/):** US$ 3 fijos hasta US$ 500 (S/ 12.5 hasta S/ 2,000) y 0.6% por
+  encima. No dice si incluye IGV.
+
+**Los pisos:**
+
+| | Soles | Dólares |
+|---|---|---|
+| Tarifa plena de Renta 4 (mínimo / 0.43%) | S/ 9,302 | **US$ 3,488** (~S/ 12,035) |
+| Renta 4 más barata que trii (mínimo / 0.6%) | S/ 6,667 | US$ 2,500 (~S/ 8,625); US$ 2,950 si el 0.6% de trii incluye IGV |
+
+Tipo de cambio: S/ 3.45, el implícito en el boletín de la BVL del 06-nov-2026.
+
+**Costo de una orden en dólares en Renta 4.** "Todo incluido" suma el IGV y ~0.1% de cargos
+regulatorios:
+
+| Orden | Comisión | % sin IGV | Todo incluido |
+|---|---|---|---|
+| US$ 500 | US$ 15 | 3.00% | 3.6% |
+| US$ 1,000 | US$ 15 | 1.50% | 1.9% |
+| US$ 1,500 | US$ 15 | 1.00% | 1.3% |
+| US$ 2,000 | US$ 15 | 0.75% | 1.0% |
+| US$ 2,500 | US$ 15 | 0.60% | 0.8% |
+| US$ 2,898 (FIBRA) | US$ 15 | 0.52% | 0.7% |
+| US$ 3,500 | US$ 15.05 | 0.43% | 0.6% |
+
+**Correcciones al texto:**
+- **FIBRA no alcanza el piso.** Con US$ 2,898 pagas US$ 15 en vez de US$ 12.46: US$ 3.00 más con
+  IGV, el 0.1%. No justifica subir la posición a S/ 12,000, cuyo tope es por concentración.
+- **El ejemplo de S/ 5,000, en dólares:** son US$ 1,449. Renta 4 cobra US$ 15 (1.04%) y trii
+  US$ 8.70 (0.60%), así que la diferencia es ~S/ 22, no S/ 10.
+- **Depósito y orden no son lo mismo:** el mínimo se cobra por orden ejecutada. Depositar de a
+  pocos no cuesta comisión de la SAB.
+- **Gestor asignado:** el "gestor patrimonial asignado" y la "atención personalizada" no los
+  verifiqué para una cuenta de este tamaño. No entran en el plan.
+- **Sin resolver:** el tarifario dice "cada orden ejecutada" y la web, "cada operación ejecutada".
+  Si una orden límite se ejecuta en partes, en varias operaciones o en varios días, no está claro
+  si cada parte paga el mínimo. Queda como pregunta a Renta 4.
+
+**Cuánto esperar para juntar el piso.** Esperar también cuesta, porque el dinero que se junta no
+está invertido. Supuestos:
+- se aportan c dólares al mes y se compra cada n meses;
+- K = US$ 17.70 es el mínimo con IGV;
+- p es lo que se espera que el ETF rinda por encima de donde espera el efectivo, sea Pibank o un
+  DPF.
+
+Con eso, el costo por unidad invertida es aproximadamente
+
+  costo(n) ≈ max(0.51%, K / (n·c)) + p·(n − 1)/24
+
+Debajo del piso, el óptimo es una orden de n·c = √(24·K·c / p), la fórmula del lote económico.
+Con p = 3%:
+- **S/ 1,000 al mes:** órdenes de ~US$ 2,000, cada ~7 meses. Costo total ~1.6%.
+- **S/ 2,000 al mes:** órdenes de ~US$ 2,900, cada ~5 meses. Comprando cada 4, 5 o 6 meses cuesta
+  ~1.1% en total; comprando cada mes, ~3.1%.
+- **S/ 4,000 al mes:** el piso, cada ~3 meses.
+
+La curva es plana cerca del óptimo, y p es incierta: con p de 2% a 5%, el óptimo se mueve entre
+US$ 1,600 y US$ 3,500. **Regla práctica:** órdenes de US$ 2,000 a 3,500. Pasado el piso la
+comisión ya no baja y esperar solo cuesta.
+
 ## Pendiente
 
 - Preguntas a Renta 4, por escrito:
+  - si una orden que se ejecuta en partes paga el mínimo de US$ 15 en cada parte;
   - si puede comprar y vender SPYL o CSPX en la rueda, cómo ejecuta y a qué precio frente a
     Londres;
   - si la custodia de valores extranjeros no tiene costo;

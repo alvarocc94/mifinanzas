@@ -32,3 +32,11 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
     tarifarios de la SMV.
   - **SPYL:** está listado en la BVL. Si Renta 4 puede comprarlo y venderlo en la rueda, el
     núcleo podría salir de IBKR.
+- **2026-11-09:** piso de la comisión de Renta 4 validado.
+  - En dólares (FIBRA, SPYL), órdenes de US$ 3,500 o más, y nunca de menos de ~US$ 2,000.
+  - El piso de S/ 9,302 que circula vale solo para órdenes en soles.
+- **2026-11-09:** cuenta abierta en Renta 4.
+  - **Revisión:** [revision_contrato_renta4.md](research_notes/Elegir%20SAB/revision_contrato_renta4.md).
+  - **PDF:** el contrato queda en `privado/renta4/`, que git ignora.
+  - **Próximo paso:** registrar una cuenta en dólares y comparar el tipo de cambio antes de
+    comprar FIBRA.

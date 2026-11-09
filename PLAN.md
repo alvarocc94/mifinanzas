@@ -169,7 +169,22 @@ SMV y los boletines de la BVL.
   - **Comisión web:** 0.43%, mínimo US$ 15, más IGV y ~0.105% de cargos de BVL, CAVALI y SMV.
     Sobre S/ 10,000: **~US$ 20.7 (0.72%) por lado**.
   - **Retirar:** S/ 20 o US$ 7 por transferencia, así que conviene una vez al año.
-  - **Atención:** plataforma web y oficina en San Isidro (Av. Víctor Andrés Belaúnde 147).
+  - **Atención:** plataforma web y oficina en San Isidro. Según el contrato (jun-2026), está en
+    Calle Las Orquídeas 621, Platinum Plaza, Torre 1, of. 621. La de Av. Víctor Andrés
+    Belaúnde 147 venía de un perfil de 2023.
+- **Cuenta abierta el 2026-11-09.** El contrato está en `privado/renta4/`, fuera de git, porque
+  trae DNI y número de cuenta. La revisión está en `research_notes/Elegir SAB/revision_contrato_renta4.md`.
+  Lo que cambia:
+  - **Cuenta en dólares:** la única cuenta bancaria registrada es de ahorro en soles en el BCP, y
+    el dinero solo sale hacia cuentas tuyas registradas. Hay que registrar una cuenta en dólares
+    antes de que FIBRA empiece a pagar.
+  - **Tipo de cambio:** Renta 4 vende dólares como contraparte. Hay que comparar su cotización
+    con Kambista o Rextie antes de convertir los S/ 10,000, porque un 1% peor cuesta ~S/ 100.
+  - **Efectivo:** el que quede ocioso va a Renta 4 Cash, un overnight a nombre de Renta 4 que se
+    queda con 10–20% del interés, y que probablemente no tiene FSD para ti. Nunca mandes una orden
+    sin los fondos ya en la cuenta: Renta 4 puede compensar deudas y vender tus valores.
+  - **SPYL:** el contrato confirma que, si la BVL excluye un valor extranjero inscrito por agente
+    promotor, no hay oferta pública de compra.
 - **trii** (Kallpa) cuesta parecido y retirar es gratis, pero va primero por app. Además, el
   tarifario formal de Kallpa incluye mantenimiento de S/ 10 al mes y S/ 5 por cobro de dividendo.
   Antes de elegirla habría que descartar por escrito que eso aplique.
@@ -177,6 +192,22 @@ SMV y los boletines de la BVL.
   - Una sola orden límite de ~423 certificados a ~US$ 6.85, válida varios días. FIBPRIME negocia
     US$ 3–35 mil al día y su formador de mercado (Grupo Coril) cotiza con ~4% de spread.
   - Al vender, informa tu costo a la SAB para que la retención de 5% sea sobre la ganancia.
+- **El piso de la comisión (validado el 2026-11-09).** El mínimo de Renta 4 se cobra por orden
+  ejecutada, no por depósito, y depende de la moneda: S/ 40 en soles y US$ 15 en dólares.
+  - **Regla:** cada orden en dólares (FIBRA, SPYL) idealmente de **US$ 3,500 o más
+    (~S/ 12,000)**, que es donde empieza la tarifa plena de 0.43% (US$ 15 / 0.43% = US$ 3,488).
+    **Nunca de menos de ~US$ 2,000 (~S/ 7,000).** A US$ 1,000 el mínimo cuesta 1.5% y a
+    US$ 500, 3%, sin IGV.
+  - **Lo que circula, S/ 9,302 y S/ 6,667, está bien calculado pero es para órdenes en soles.** En
+    dólares, Renta 4 le gana a trii desde US$ 2,500 (~S/ 8,600), o desde US$ 2,950 si el 0.6% de
+    trii incluye IGV.
+  - **FIBRA:** la compra (US$ 2,898) queda debajo del piso y paga ~US$ 3 de más. No se sube a
+    S/ 12,000, porque el tope es por concentración, no por comisión. Lo que importa es una sola
+    orden.
+  - **Distribuciones:** las de FIBRA (~US$ 17 al mes) no se reinvierten en órdenes chicas.
+  - **Aportes:** si el núcleo pasa a SPYL en Renta 4, se acumulan en soles y se compran en
+    órdenes de US$ 2,000–3,500 o más. Con S/ 2,000 al mes eso es cada 4–6 meses. Pasado el piso
+    la comisión ya no baja, y esperar solo cuesta rendimiento.
 - **Rendimiento revisado:** TTM de US$ 0.52 por certificado: 7.6% bruto y ~7.3% neto a US$ 6.83.
   Más de un tercio es "exceso de caja", y el pago de noviembre (US$ 0.025) es el más bajo del año,
   tras la sexta colocación (US$ 40 millones).
@@ -212,7 +243,7 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 | Cuándo | Qué |
 |---|---|
 | **Mar 17-nov-2026** | Último día de la campaña de Alfin, renovada del 03 al 17-nov con las mismas tasas, o antes si capta S/ 20 MM (verificado el 2026-11-05). Lleva las preguntas del informe 1: TREA en la cartilla, sin renovación automática, sin tarjeta ni usuario digital. Los otros S/ 20k del fondo de vivienda van a Financiera Confianza a 361 días (5.00%, solo en oficinas, campaña hasta el 30-nov) |
-| Noviembre 2026 | Abrir Renta 4 SAB y comprar FIBRA Prime; antes, hacerle por escrito las preguntas sobre SPYL en la BVL (ver pendientes). Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
+| Noviembre 2026 | Renta 4 SAB, abierta el 09-nov:<br>1. Registrar una cuenta en dólares.<br>2. Comparar su tipo de cambio con Kambista.<br>3. Comprar FIBRA Prime en una sola orden.<br>4. Mandar por escrito las preguntas sobre SPYL y las del contrato (ver pendientes).<br> Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
 | Nov–dic 2026 | Cambiar soles a dólares en una fintech, mandar un solo wire a IBKR y comprar SPYL. Si el trading va en IBKR, incluir los ~US$ 1,850 en el mismo wire. 8 semanas de trading en paper con las reglas escritas en git |
 | 31-dic-2026 | Vence la exoneración del IR sobre intereses de depósitos (la prórroga, PL 509, no está aprobada) |
 | 02-ene-2027 | Si el paper salió bien en disciplina, arranca el trading live con S/ 6,500, sin reponer nunca |
@@ -240,8 +271,19 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       - cómo ejecuta si no hay oferta y a qué precio frente a Londres;
       - si la custodia de valores extranjeros es sin costo;
       - qué pasa si la BVL excluye el valor;
-      - cuánto cuesta transferir a Interbank.
+      - si SPYL comprado en la rueda queda a tu nombre en CAVALI o en su cuenta global;
+      - cuánto cuesta transferir a tu cuenta bancaria;
+      - si una orden que se ejecuta en partes, en varias operaciones o en varios días, paga el
+        mínimo de US$ 15 en cada parte.
       La regla de decisión está en la sección del ETF.
+- [x] Abrir la cuenta en Renta 4 (2026-11-09). Contrato revisado; el PDF está en `privado/`.
+- [ ] Renta 4, sobre la cuenta (ver `revision_contrato_renta4.md`):
+      - registrar una cuenta bancaria en dólares;
+      - pedir el código CAVALI (RUT);
+      - preguntar si hay doble factor (TOTP) en la web;
+      - preguntar si cobran algún cargo por orden por el acceso ADM de la BVL (cl. 18.12);
+      - preguntar en qué bancos tienen cuentas de intermediación y a qué tipo de cambio venden
+        dólares.
 - [ ] IBKR: entidad para Perú, TOTP disponible para Perú y comisiones de SafetyPay para
       aportes en soles.
 - [~] Alpaca: el formulario acepta Perú (2026-10-31); falta la aprobación del KYC. Revisar el
@@ -266,3 +308,10 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
   - Se revisa el rendimiento de FIBRA a ~7.3% neto (TTM).
   - Se encuentra SPYL listado en la BVL, una posible mejora del núcleo que depende de la respuesta
     de Renta 4.
+- 2026-11-09: se valida el piso de la comisión mínima de Renta 4 contra su tarifario.
+  - En soles es S/ 9,302. En dólares, que es como se compran FIBRA y SPYL, es US$ 3,488.
+  - Regla: órdenes de US$ 3,500 o más, y nunca de menos de ~US$ 2,000.
+- 2026-11-09: el dueño abre su cuenta en Renta 4 y se revisa el contrato.
+  - El PDF queda en `privado/`, fuera de git.
+  - Lo que sale de la revisión: falta una cuenta en dólares, hay que comparar el tipo de cambio,
+    se corrige la dirección de la oficina y se suman preguntas (TOTP, cargo ADM, código RUT).
