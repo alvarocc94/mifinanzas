@@ -13,6 +13,8 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 | 2b | ¿Puedo volver a usar MiVivienda? | [notas](research_notes/Recompra%20de%20vivienda%20tras%20usar%20Mivivienda/mivivienda_reacceso.md) · resumen en el informe 2 | ✅ 2026-10-31 · crédito sí, bono no |
 | 4 | Asignación de los S/ 100,000 | [PLAN.md](PLAN.md) | ✅ v1 2026-10-31 |
 | 5 | Qué SAB usar para FIBRA Prime, y SPYL en la BVL | [notas](research_notes/Elegir%20SAB/sab_fibra_y_via_bvl.md) · resumen en PLAN.md | ✅ 2026-11-07 · Renta 4; SPYL por confirmar |
+| 5b | Fondos mutuos en Renta 4 (Blum USA 500, fondos de liquidez) | [notas](research_notes/Elegir%20SAB/fondos_mutuos_renta4.md) | ✅ 2026-11-12 · no para el núcleo |
+| 6 | Proyectos de 2 dormitorios para la feria Nexo (nov-2026) | [informe](reports/Proyectos%20de%20departamentos%20en%20Lima%20Moderna.md) | ✅ 2026-11-12 · cotizar, no comprar |
 
 ## Estado actual
 
@@ -40,3 +42,10 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
   - **PDF:** el contrato queda en `privado/renta4/`, que git ignora.
   - **Próximo paso:** registrar una cuenta en dólares y comparar el tipo de cambio antes de
     comprar FIBRA.
+- **2026-11-12:** informe 6 para la feria Nexo (12–15 nov).
+  - **Shortlist:** 7 proyectos para cotizar por escrito, con un checklist y el semáforo de
+    inmobiliarias. Todo está también en la vista de lectura.
+  - **Inicial real:** sin bono es 10%, porque el NCMV presta como máximo el 90%. El techo
+    realista queda en S/ 330–400k y el veredicto de alquilar no cambia.
+  - **Fondos mutuos de Renta 4 (nota 5b):** Blum USA 500 cobra 1.77% al año, así que no va al
+    núcleo.

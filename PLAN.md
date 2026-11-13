@@ -43,9 +43,14 @@ sin cubrir y la parte defensiva queda en soles.
   Lince, Jesús María, Pueblo Libre o Magdalena solo conviene si la vivienda se aprecia
   3.2–5.7% nominal al año. Esos distritos subieron ~1–3% al año en soles en los últimos 5 años
   (BCRP). **En el escenario base gana alquilar.**
-- **Lo que sí vale:** el segundo crédito MiVivienda te da inicial de 7.5% y plazo de 25 años.
-  Con S/ 50k alcanza hasta ~S/ 460k, pero con un apalancamiento de ~12x. Es una opción para
-  más adelante, no un motivo para comprar ya.
+- **Lo que sí vale:** el segundo crédito MiVivienda da plazo de 25 años. Es una opción para más
+  adelante, no un motivo para comprar ya.
+  - **Corrección del 2026-11-12:** la inicial no es 7.5%. El reglamento vigente (v26, RGG
+    000054-2025-FMV/GG) presta como máximo el 90% del valor, así que sin bono la inicial real es
+    10%, igual que un hipotecario convencional. Falta que un banco lo confirme por escrito.
+  - Con S/ 50k el techo baja de ~S/ 460k a ~S/ 395k, dejando S/ 5k de colchón.
+  - El umbral de plusvalía no cambia, porque el modelo ya suponía 10% de inicial.
+  - Detalle en `reports/Proyectos de departamentos en Lima Moderna.md`.
 - **Plan de vivienda:** cuando te mudes, alquila cerca del trabajo. Un departamento de
   45–65 m² cuesta ~S/ 1,600–2,400 en Lince o Jesús María y ~S/ 1,350–2,000 en Pueblo Libre o
   San Miguel (estimado con Urbania). El fondo de S/ 40k queda en soles. **Revisa en 2027–2028**
@@ -208,6 +213,11 @@ SMV y los boletines de la BVL.
   - **Aportes:** si el núcleo pasa a SPYL en Renta 4, se acumulan en soles y se compran en
     órdenes de US$ 2,000–3,500 o más. Con S/ 2,000 al mes eso es cada 4–6 meses. Pasado el piso
     la comisión ya no baja, y esperar solo cuesta rendimiento.
+- **Fondos mutuos en Renta 4 (revisado el 2026-11-12):** Blum USA 500 invierte en CSPX y se
+  rescata en ~3 días hábiles sin depender de la rueda. Pero cobra 1.77% al año con IGV en la
+  serie B, y a 20 años deja ~29% menos que SPYL. **No se usa para el núcleo.** Los fondos de
+  liquidez (Blum Cash Soles serie O, 4.01% a 1 año al 10-nov) sirven solo para efectivo en
+  espera. Detalle: `research_notes/Elegir SAB/fondos_mutuos_renta4.md`.
 - **Rendimiento revisado:** TTM de US$ 0.52 por certificado: 7.6% bruto y ~7.3% neto a US$ 6.83.
   Más de un tercio es "exceso de caja", y el pago de noviembre (US$ 0.025) es el más bajo del año,
   tras la sexta colocación (US$ 40 millones).
@@ -242,6 +252,7 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 
 | Cuándo | Qué |
 |---|---|
+| **Jue 12 – dom 15-nov-2026** | Feria Nexo Inmobiliario (Costa Verde, Magdalena, 11:00–21:00), para cotizar y no para comprar. Hay 7 proyectos para cotizar y un checklist en el informe "Proyectos de departamentos en Lima Moderna". Solo se separa si una unidad cumple las cinco condiciones, y se decide antes del 17-nov |
 | **Mar 17-nov-2026** | Último día de la campaña de Alfin, renovada del 03 al 17-nov con las mismas tasas, o antes si capta S/ 20 MM (verificado el 2026-11-05). Lleva las preguntas del informe 1: TREA en la cartilla, sin renovación automática, sin tarjeta ni usuario digital. Los otros S/ 20k del fondo de vivienda van a Financiera Confianza a 361 días (5.00%, solo en oficinas, campaña hasta el 30-nov) |
 | Noviembre 2026 | Renta 4 SAB, abierta el 09-nov:<br>1. Registrar una cuenta en dólares.<br>2. Comparar su tipo de cambio con Kambista.<br>3. Comprar FIBRA Prime en una sola orden.<br>4. Mandar por escrito las preguntas sobre SPYL y las del contrato (ver pendientes).<br> Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
 | Nov–dic 2026 | Cambiar soles a dólares en una fintech, mandar un solo wire a IBKR y comprar SPYL. Si el trading va en IBKR, incluir los ~US$ 1,850 en el mismo wire. 8 semanas de trading en paper con las reglas escritas en git |
@@ -260,7 +271,9 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       - si el crédito de 2022 cuenta para el límite de dos veces;
       - qué tasa e inicial aplican a un segundo crédito sin bono;
       - si haber devuelto el bono íntegro con intereses (~S/ 16,500) te vuelve a habilitar para
-        el subsidio. Si la respuesta es sí, el análisis de vivienda cambia de signo.
+        el subsidio. Si la respuesta es sí, el análisis de vivienda cambia de signo;
+      - si el préstamo máximo del 90% deja la inicial real en 10% cuando no hay bono.
+      Se puede preguntar en su stand de la feria Nexo (12–15 nov).
 - [x] La "penalidad" fue la devolución del bono: ~S/ 16,500 descontados en la liquidación
       (confirmado por el dueño el 2026-11-07).
 - [x] Tarifario de la SAB: Renta 4 cobra 0.43% web (mínimo US$ 15) y no cobra custodia ni
@@ -281,7 +294,8 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       - registrar una cuenta bancaria en dólares;
       - pedir el código CAVALI (RUT);
       - preguntar si hay doble factor (TOTP) en la web;
-      - preguntar si cobran algún cargo por orden por el acceso ADM de la BVL (cl. 18.12);
+      - cargo por operar en la plataforma (acceso ADM, cl. 18.12): respondido el 2026-11-11,
+        Renta 4 no cobra nada aparte de la comisión;
       - preguntar en qué bancos tienen cuentas de intermediación y a qué tipo de cambio venden
         dólares.
 - [ ] IBKR: entidad para Perú, TOTP disponible para Perú y comisiones de SafetyPay para
@@ -315,3 +329,11 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
   - El PDF queda en `privado/`, fuera de git.
   - Lo que sale de la revisión: falta una cuenta en dólares, hay que comparar el tipo de cambio,
     se corrige la dirección de la oficina y se suman preguntas (TOTP, cargo ADM, código RUT).
+- 2026-11-12: informe "Proyectos de departamentos en Lima Moderna", para la feria Nexo del
+  12–15 nov.
+  - Hay 7 proyectos para cotizar, un semáforo de inmobiliarias (Grupo T&C en rojo) y un
+    checklist.
+  - El reglamento del NCMV presta como máximo el 90%, así que la inicial real sin bono es 10%. El
+    veredicto de alquilar no cambia.
+  - Se revisan los fondos mutuos de Renta 4: Blum USA 500 no sirve para el núcleo, por su
+    comisión de 1.77% al año.

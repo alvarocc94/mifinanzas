@@ -55,7 +55,8 @@ carpeta que git ignora. Esta nota no copia ninguno de esos datos.
   - El tarifario de Renta 4 no los lista.
   - En el de la BVL (boletín del 06-nov-2026), la conexión ADM cuesta S/ 274 al mes por conexión y
     se le cobra a la SAB, no por orden.
-  - Hay que preguntar si a ti te cobran algo por orden.
+  - **Respuesta (2026-11-11, de Renta 4 al dueño):** no cobran nada por operar en la plataforma
+    aparte de la comisión.
 - **Cambios de tarifas.**
   - Renta 4 puede cambiar sus tarifas por su cuenta, avisando con 15 días (cl. 4.3).
   - Los cambios al contrato requieren 30 días de aviso, y puedes resolverlo sin costo antes de que
@@ -109,7 +110,7 @@ Vale la del contrato, pero conviene confirmarla con el ejecutivo antes de ir.
 ## Preguntas que se suman a las de SPYL
 
 - ¿Hay doble factor (TOTP) para entrar a la plataforma web?
-- ¿Cobran algún cargo por orden por el acceso ADM de la BVL (cl. 18.12), además del 0.43%?
+- ~~¿Cobran algún cargo por orden por el acceso ADM de la BVL (cl. 18.12)?~~ No (2026-11-11).
 - ¿Cuál es mi código CAVALI (RUT)?
 - ¿En qué bancos tienen cuentas de intermediación en soles y en dólares?
 - ¿A qué tipo de cambio venden dólares hoy, frente a Kambista o Rextie?
