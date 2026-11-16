@@ -49,3 +49,13 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
     realista queda en S/ 330–400k y el veredicto de alquilar no cambia.
   - **Fondos mutuos de Renta 4 (nota 5b):** Blum USA 500 cobra 1.77% al año, así que no va al
     núcleo.
+- **2026-11-12 (tarde):**
+  - **BCRP:** subió la tasa a 4.50%. Ninguna decisión del plan cambia.
+  - **Loft de 2022 (Barranco, con los datos reales):** rindió ~25–27% anual sobre la plata
+    propia, o ~13% si el primer año no tuvo renta. Salió de comprar ~17% bajo la mediana, de una
+    renta de 9.5% del precio y del bono; Barranco no subió en soles
+    ([nota](research_notes/Vivienda%20con%20apalancamiento/loft_2022_2026_y_modelo.md)). Para un
+    2D en el que vivas, el veredicto sigue siendo alquilar. El departamento de inversión en Airbnb
+    se reabre, pendiente de los datos reales.
+  - **Acciones de EE.UU. en Renta 4:** en la pestaña de EE.UU., órdenes de US$ 3,850 o más y 14%
+    de impuesto; por la BVL, 6.25%.

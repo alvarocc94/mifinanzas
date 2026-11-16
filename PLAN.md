@@ -57,8 +57,25 @@ sin cubrir y la parte defensiva queda en soles.
   con los precios del BCRP de 2026, tu ingreso de entonces y la tasa hipotecaria. Si para
   entonces está claro que no comprarás en los próximos 5 años, pasa parte de ese fondo al
   núcleo indexado.
-- **Descartado:** el departamento de inversión con hipoteca, porque el flujo es negativo y
-  necesita 4.5% de plusvalía anual solo para empatar con FIBRA. También el terreno cerca de
+- **El loft de 2022 (Barranco, 33 m², revisado el 2026-11-12 con los datos reales):** la plata
+  propia rindió **~25–27% al año**, o ~13% si el primer año no tuvo renta. Las razones fueron
+  tres:
+  - se compró ~17% bajo la mediana de Barranco (S/ 7,273 frente a S/ 8,712 por m²) y se vendió en
+    la mediana. El distrito no subió en soles;
+  - un Airbnb y luego una renta amoblada que dejaban ~9.5% del precio al año, más que el 6.4% de
+    interés;
+  - el bono.
+  Para un 2D en el que vives, el veredicto no cambia: a 5 años necesitas ~4.1% de plusvalía anual
+  para que tu plata gane 8%. Detalle en
+  `research_notes/Vivienda con apalancamiento/loft_2022_2026_y_modelo.md`.
+- **Descartado:** el departamento de inversión con hipoteca, porque con alquiler de largo plazo el
+  flujo es negativo y necesita 4.5% de plusvalía anual solo para empatar con FIBRA.
+  - **Reabierto el 2026-11-12:** un loft de 33 m² en Barranco con renta neta de S/ 1,850 rinde
+    ~10% al año si se compra 15% bajo la mediana y la plusvalía es de 2%. Si se paga la mediana
+    (S/ 286k) rinde ~4–5%, y en ese caso no conviene.
+  - La condición es comprar con descuento: en preventa o una unidad terminada con rebaja.
+  - Iría con hipotecario convencional, porque el NCMV exige vivir ahí 3 años.
+- **También descartado:** el terreno cerca de
   megaproyectos: el riesgo dominante es el título, y los precios de oferta de Chancay están
   planos en 2026.
 
@@ -213,6 +230,14 @@ SMV y los boletines de la BVL.
   - **Aportes:** si el núcleo pasa a SPYL en Renta 4, se acumulan en soles y se compran en
     órdenes de US$ 2,000–3,500 o más. Con S/ 2,000 al mes eso es cada 4–6 meses. Pasado el piso
     la comisión ya no baja, y esperar solo cuesta rendimiento.
+- **Acciones de EE.UU. en Renta 4 (2026-11-12):**
+  - **Pestaña "Estados Unidos":** 0.65% con mínimo de US$ 25 (sin IGV; tarifario: 0.05–1.50%,
+    mínimo US$ 25). Salir del mínimo exige órdenes de **US$ 3,850 o más**. Con IGV cuesta ~0.77%
+    por lado; a US$ 1,000, 2.95%. Se vende en el exterior, así que la ganancia **se suma al
+    sueldo: 14% marginal**, no 6.25%. Las pérdidas del exterior no compensan ganancias peruanas.
+  - **Pestaña BVL:** la misma acción listada en Lima (p. ej. NVDAUS) paga 0.43% con mínimo de
+    US$ 15 (órdenes de US$ 3,500 o más) y **6.25% fijo** al vender por la BVL. Antes de comprar,
+    hay que revisar el libro de órdenes.
 - **Fondos mutuos en Renta 4 (revisado el 2026-11-12):** Blum USA 500 invierte en CSPX y se
   rescata en ~3 días hábiles sin depender de la rueda. Pero cobra 1.77% al año con IGV en la
   serie B, y a 20 años deja ~29% menos que SPYL. **No se usa para el núcleo.** Los fondos de
@@ -254,7 +279,7 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 |---|---|
 | **Jue 12 – dom 15-nov-2026** | Feria Nexo Inmobiliario (Costa Verde, Magdalena, 11:00–21:00), para cotizar y no para comprar. Hay 7 proyectos para cotizar y un checklist en el informe "Proyectos de departamentos en Lima Moderna". Solo se separa si una unidad cumple las cinco condiciones, y se decide antes del 17-nov |
 | **Mar 17-nov-2026** | Último día de la campaña de Alfin, renovada del 03 al 17-nov con las mismas tasas, o antes si capta S/ 20 MM (verificado el 2026-11-05). Lleva las preguntas del informe 1: TREA en la cartilla, sin renovación automática, sin tarjeta ni usuario digital. Los otros S/ 20k del fondo de vivienda van a Financiera Confianza a 361 días (5.00%, solo en oficinas, campaña hasta el 30-nov) |
-| Noviembre 2026 | Renta 4 SAB, abierta el 09-nov:<br>1. Registrar una cuenta en dólares.<br>2. Comparar su tipo de cambio con Kambista.<br>3. Comprar FIBRA Prime en una sola orden.<br>4. Mandar por escrito las preguntas sobre SPYL y las del contrato (ver pendientes).<br> Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
+| Noviembre 2026 | Renta 4 SAB, abierta el 09-nov:<br>1. Registrar una cuenta en dólares.<br>2. Comparar su tipo de cambio con Kambista.<br>3. ~~Comprar FIBRA Prime en una sola orden~~: hecho el 16-nov, 440 certificados a US$ 6.82 (US$ 3,000.80).<br>4. Mandar por escrito las preguntas sobre SPYL y las del contrato (ver pendientes).<br> Con su respuesta se decide si se abre IBKR para el núcleo. Preguntar a Alpaca si abre cuentas live a residentes en Perú. Configurar Pibank en el celular dedicado |
 | Nov–dic 2026 | Cambiar soles a dólares en una fintech, mandar un solo wire a IBKR y comprar SPYL. Si el trading va en IBKR, incluir los ~US$ 1,850 en el mismo wire. 8 semanas de trading en paper con las reglas escritas en git |
 | 31-dic-2026 | Vence la exoneración del IR sobre intereses de depósitos (la prórroga, PL 509, no está aprobada) |
 | 02-ene-2027 | Si el paper salió bien en disciplina, arranca el trading live con S/ 6,500, sin reponer nunca |
@@ -298,6 +323,8 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
         Renta 4 no cobra nada aparte de la comisión;
       - preguntar en qué bancos tienen cuentas de intermediación y a qué tipo de cambio venden
         dólares.
+- [~] Datos reales del loft: recibidos el 2026-11-12. Falta saber si hubo renta durante el año
+      de espera de la independización, que define si el loft rindió ~26% o ~13% al año.
 - [ ] IBKR: entidad para Perú, TOTP disponible para Perú y comisiones de SafetyPay para
       aportes en soles.
 - [~] Alpaca: el formulario acepta Perú (2026-10-31); falta la aprobación del KYC. Revisar el
@@ -337,3 +364,41 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
     veredicto de alquilar no cambia.
   - Se revisan los fondos mutuos de Renta 4: Blum USA 500 no sirve para el núcleo, por su
     comisión de 1.77% al año.
+- 2026-11-12: el BCRP sube su tasa de 4.25% a 4.50%, la primera alza desde ene-2023
+  ([Gestión](https://gestion.pe/economia/empresas/bcrp-rompe-pausa-de-14-meses-y-sube-su-tasa-de-referencia-a-que-nivel-noticia/)).
+  - **Contexto:** inflación de 5.3% en octubre (4.5% en setiembre) y expectativas a 12 meses de
+    3.1%. El BCRP dice que no es necesariamente el inicio de un ciclo de alzas. Próxima reunión:
+    10-dic ([Forbes Perú](https://forbes.pe/economia-y-finanzas/2026-11-12/el-bcrp-sube-la-tasa-de-referencia-a-45-ante-el-repunte-de-la-inflacion)).
+  - **Efecto en el plan:** ninguna decisión cambia.
+    - DPF: se abren igual antes del 17-nov y a 360 días.
+    - FIBRA Prime: está en dólares y sin deuda en soles, así que el alza casi no la toca.
+    - Hipotecas: se fijan con los bonos soberanos y no necesariamente suben (Hugo Perea, BBVA
+      Research, en
+      [El Comercio](https://elcomercio.pe/economia/bcr-sube-su-tasa-de-interes-a-450-por-primera-vez-desde-2023-que-efectos-tendra-noticia/)).
+- 2026-11-12: se revisa el caso del loft de 2022 con un modelo de apalancamiento. Se reabre el
+  departamento de inversión en Airbnb, pendiente de los datos reales.
+- 2026-11-16: el dueño compra FIBRA Prime en Renta 4: 440 certificados a US$ 6.82 (US$ 3,000.80),
+  en una sola orden. Pasa a elegir el ETF del S&P 500 en la BVL.
+  - **Libro de órdenes del 16-nov.** En la tabla, "Prec. Comp." es lo que ofrecen otros
+    compradores, no el precio al que uno compra. Se leyó al revés y se corrigió el mismo día.
+    - **VOO:** compran a 678.29 (500) y venden a 681.06 (495): diferencia de 0.4%. Hubo 15
+      operaciones por US$ 10,246.
+    - **CSPX:** hay compradores a 811 (12) y entre 810 y 795, pero **nadie vende**. Hoy no se puede
+      comprar.
+    - **SPYL:** sin posturas. SPY no salió en la búsqueda.
+  - **Recomendación:** VOO ahora, con orden límite y 5 unidades a 681.06 (~US$ 3,405).
+    - Frente a CSPX pierde ~0.13 puntos al año: la retención es de 30% en vez de 15%, menos 0.04
+      puntos que VOO cobra de menos.
+    - Con 9% anual, eso es ~US$ 5 el primer año y ~US$ 440 (2.4%) a 20 años sobre US$ 3,405.
+    - Queda expuesto al estate tax por encima de US$ 60k.
+  - **No vale la vía de Bolsillos Llenos** (comprar en Hapi o IBKR y traer los valores a Renta 4
+    por DTC) para una orden de este tamaño.
+    - Ahorra ~0.6–0.8% de comisión y spread, ~US$ 25.
+    - Pero Renta 4 cobra US$ 25 por recibir los valores (tarifario).
+    - Hay que sumar la comisión de salida del otro bróker y su tipo de cambio.
+    - Sigue sin verificarse que la transferencia funcione.
+    - Se revisa solo si los aportes futuros son chicos y frecuentes.
+- 2026-11-12: se anotan los costos y el impuesto de las acciones de EE.UU. en Renta 4.
+  - NVIDIA cayó ~34% desde su máximo del 5-oct, tras la renuncia de Jensen Huang el 12-nov
+    ([Fortune](https://fortune.com/2026/11/12/jensen-huang-downfall-is-nvidia-a-buy-or-sell/)).
+  - No cambia el plan: compras sueltas solo dentro del experimento de trading.
