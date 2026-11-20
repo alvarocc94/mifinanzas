@@ -296,8 +296,8 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 - [ ] Consultar en INDECOPI ("Mira a quién le compras") los RUC de Grupo Caral y Grupo T&C,
       sobre todo Sarasota Real Estate Group (Mural, 20611195843) y GC Angamos (Villa Elenia,
       20612083321). La lista está en `research_notes/Barrido de precios por m2/`.
-- [ ] Completar el barrido de Nexo (`herramientas/nexo_barrido.py`, pausa de 12 s) cuando se
-      levante el bloqueo del 19-nov.
+- [x] ~~Barrido automático de Nexo~~: descartado el 19-nov. Sus términos (cláusula 3.2) prohíben la
+      extracción automatizada; se retiró la herramienta y se borraron los datos.
 - [ ] Pedir por escrito al Fondo MiVivienda:
       - si el crédito de 2022 cuenta para el límite de dos veces;
       - qué tasa e inicial aplican a un segundo crédito sin bono;
@@ -393,7 +393,8 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
   - **Villa Elenia** exige ~S/ 70k propios por las cuotas antes de la entrega: peor para revender.
   - **Riesgos:** T&C sigue en rojo para comprar en planos. Mural no tiene banco promotor y Nexo dice
     "En excavación" con entrega en oct-2027.
-  - **Barrido:** Nexo bloqueó el de toda Lima tras 37 fichas; queda pendiente a ritmo lento.
+  - **Barrido:** Nexo lo cortó tras 37 fichas, y sus términos (3.2) prohíben la extracción
+    automatizada. Se descartó y se retiró la herramienta.
     Urbania no permite el acceso automático.
   - **Tras la visita:** BBVA desembolsa con el departamento terminado; la inicial va a un
     fideicomiso; van 11 de 23 pisos; la independización toma 12–18 meses; no se puede ceder el

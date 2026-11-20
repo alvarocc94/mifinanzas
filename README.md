@@ -15,7 +15,7 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 | 5 | Qué SAB usar para FIBRA Prime, y SPYL en la BVL | [notas](research_notes/Elegir%20SAB/sab_fibra_y_via_bvl.md) · resumen en PLAN.md | ✅ 2026-11-07 · Renta 4; SPYL por confirmar |
 | 5b | Fondos mutuos en Renta 4 (Blum USA 500, fondos de liquidez) | [notas](research_notes/Elegir%20SAB/fondos_mutuos_renta4.md) | ✅ 2026-11-12 · no para el núcleo |
 | 6 | Proyectos de 2 dormitorios para la feria Nexo (nov-2026) | [informe](reports/Proyectos%20de%20departamentos%20en%20Lima%20Moderna.md) | ✅ 2026-11-12 · cotizar, no comprar |
-| 6b | Preventa para revender: Mural y Villa Elenia; m² barato; razones sociales | [nota](research_notes/Barrido%20de%20precios%20por%20m2/mural_y_barrido_2026-11-19.md) · `herramientas/` | 🟡 2026-11-19 · barrido de Nexo incompleto |
+| 6b | Preventa para revender: Mural y Villa Elenia; m² barato; razones sociales | [nota](research_notes/Barrido%20de%20precios%20por%20m2/mural_y_barrido_2026-11-19.md) | ✅ 2026-11-19 · barrido de Nexo descartado (términos) |
 
 ## Estado actual
 
@@ -64,5 +64,5 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
   - **Mural 1511:** cerrar la venta en ~S/ 286.5k es solo empatar; los S/ 300k esperados exigen
     plusvalía. El 1D de ~43–45 m² del mismo edificio mejora mucho el número.
   - **Riesgo:** T&C sigue en rojo y Mural no tiene banco promotor.
-  - **Herramientas:** `herramientas/nexo_barrido.py` y `nexo_ranking.py`. Nexo bloqueó el barrido
-    tras 37 fichas; queda pendiente a ritmo lento.
+  - **Barrido de Nexo, descartado:** sus términos (3.2) prohíben la extracción automatizada. Se
+    retiró la herramienta y se borraron los datos.

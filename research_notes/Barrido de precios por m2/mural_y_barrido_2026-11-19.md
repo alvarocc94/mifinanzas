@@ -15,18 +15,15 @@ precios de internet son de lista y que en Perú se negocia 5–7% abajo. Pidió:
 
 ## 1. Qué se pudo barrer y qué no
 
-- **Nexo Inmobiliario:** su robots.txt no restringe nada y su sitemap lista ~775 fichas de
-  departamentos en Lima y Callao.
-  - `herramientas/nexo_barrido.py` lee cada ficha: fecha de entrega, etapa de obra, banco, socio
-    ASEI, historial del precio "desde", y área, precio, dormitorios y unidades disponibles por
-    tipología.
-  - `herramientas/nexo_ranking.py` calcula el S/ por m², lo descuenta 6% y lo compara con la
-    mediana del distrito.
-  - **Bloqueo:** a una ficha por segundo, Nexo respondió 403 a todo después de 37 fichas.
-    - Se detuvo el barrido. El script ahora para solo ante el primer 403 o 429 y la pausa por
-      defecto es de 12 s.
-    - Completarlo toma ~2.5 horas, otro día y desde otra conexión o con el bloqueo ya levantado.
-  - Datos parciales en `raw/` (git los ignora).
+- **Nexo Inmobiliario: descartado.** Su robots.txt no restringe nada, pero sus
+  [términos y condiciones](https://nexoinmobiliario.pe/terminos-y-condiciones), cláusula 3.2,
+  **prohíben expresamente la extracción automatizada**: "scripts, bots, crawlers, spiders o
+  cualquier otro mecanismo automatizado o semiautomatizado".
+  - Se revisaron después de un primer barrido de 37 fichas, que Nexo cortó con un 403.
+  - El 2026-11-19 se retiraron del repo el barrido y el ranking (commit `e054b6d`) y se borraron
+    los datos bajados.
+  - Las cifras de Mural de esta nota vienen de su ficha. De aquí en adelante, los datos de
+    proyectos entran a mano: cotizaciones, la ficha que lee el dueño o la feria.
 - **Urbania:** responde 403 (Cloudflare) y su robots.txt no permite pasar de la página 5. La
   **reventa** se mide entonces con el BCRP, cuyos precios de oferta salen de avisos de portales.
 - **INDECOPI, "Mira a quién le compras":** la app usa una API con token OAuth. No se usó por fuera
@@ -202,7 +199,7 @@ consultado el 2026-11-19:
 ## 7. Pendiente
 
 - Consultar en MQLC los RUC de las tablas de §6, o pasarle al asistente las capturas.
-- Completar el barrido de Nexo con pausa de 12 s cuando se levante el bloqueo.
+- ~~Completar el barrido de Nexo~~: descartado por sus términos de uso (§1).
 - Llevar a la visita de Mural las preguntas de §5 y las del informe de la feria.
 
 ## 8. Respuestas del dueño tras la visita (2026-11-19, tarde)
