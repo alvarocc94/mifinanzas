@@ -296,8 +296,10 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 - [ ] Consultar en INDECOPI ("Mira a quién le compras") los RUC de Grupo Caral y Grupo T&C,
       sobre todo Sarasota Real Estate Group (Mural, 20611195843) y GC Angamos (Villa Elenia,
       20612083321). La lista está en `research_notes/Barrido de precios por m2/`.
-- [x] ~~Barrido automático de Nexo~~: descartado el 19-nov. Sus términos (cláusula 3.2) prohíben la
-      extracción automatizada; se retiró la herramienta y se borraron los datos.
+- [ ] Barrido de Nexo (`herramientas/nexo_barrido.py`): retirado y restaurado el 19-nov a pedido
+      del dueño. Sus términos (cláusula 3.2) prohíben la extracción automatizada, y usarlo es
+      decisión del dueño. Si lo usa: pausa de 12 s, y se detiene ante el primer 403 o 429. La
+      alternativa sin ese conflicto es pedir permiso por escrito a Nexo (CODIP).
 - [ ] Pedir por escrito al Fondo MiVivienda:
       - si el crédito de 2022 cuenta para el límite de dos veces;
       - qué tasa e inicial aplican a un segundo crédito sin bono;

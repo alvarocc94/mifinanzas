@@ -15,14 +15,14 @@ precios de internet son de lista y que en Perú se negocia 5–7% abajo. Pidió:
 
 ## 1. Qué se pudo barrer y qué no
 
-- **Nexo Inmobiliario: descartado.** Su robots.txt no restringe nada, pero sus
+- **Nexo Inmobiliario.** Su robots.txt no restringe nada, pero sus
   [términos y condiciones](https://nexoinmobiliario.pe/terminos-y-condiciones), cláusula 3.2,
   **prohíben expresamente la extracción automatizada**: "scripts, bots, crawlers, spiders o
   cualquier otro mecanismo automatizado o semiautomatizado".
   - Se revisaron después de un primer barrido de 37 fichas, que Nexo cortó con un 403.
-  - El 2026-11-19 se retiraron del repo el barrido y el ranking (commit `e054b6d`) y se borraron
-    los datos bajados.
-  - Las cifras de Mural de esta nota vienen de su ficha. De aquí en adelante, los datos de
+  - El 2026-11-19 se retiraron del repo el barrido y el ranking y se borraron los datos bajados.
+  - El mismo día se restauraron en `herramientas/` a pedido del dueño, que decide si los usa.
+  - Las cifras de Mural de esta nota vienen de su ficha. Sin el barrido, los datos de
     proyectos entran a mano: cotizaciones, la ficha que lee el dueño o la feria.
 - **Urbania:** responde 403 (Cloudflare) y su robots.txt no permite pasar de la página 5. La
   **reventa** se mide entonces con el BCRP, cuyos precios de oferta salen de avisos de portales.
