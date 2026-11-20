@@ -123,7 +123,8 @@ Estimado: ~+6% de patrimonio a 20 años frente a IBKR, incluso con marginal de 1
 la liquidez: SPYL cotizó en el 5% de las sesiones. Regla de decisión:
 - **Sí, en la rueda, en ambos sentidos,** con ≤0.7% por lado todo incluido y sin custodia: el
   núcleo va a SPYL en Renta 4 y no se abre IBKR para el núcleo.
-- **Solo SPY:** se mantiene SPYL en IBKR.
+- **Solo SPY:** se mantiene SPYL en IBKR. *Revisado el 2026-11-16: con compra directa en la BVL,
+  VOO le gana a SPYL en IBKR por ~2–3% a 20 años y evita abrir IBKR. Ver el Historial de ese día.*
 - **Sin venta asegurada en la rueda:** se mantiene SPYL en IBKR.
 
 Detalle en `research_notes/Elegir SAB/sab_fibra_y_via_bvl.md`.
@@ -292,6 +293,11 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       marginal es 14% y el ETF es SPYL. Revisar si pasa de ~S/ 148,500.
 - [x] Venta del loft: exenta como casa habitación y tramitada en notaría (confirmado por el
       dueño el 2026-10-31).
+- [ ] Consultar en INDECOPI ("Mira a quién le compras") los RUC de Grupo Caral y Grupo T&C,
+      sobre todo Sarasota Real Estate Group (Mural, 20611195843) y GC Angamos (Villa Elenia,
+      20612083321). La lista está en `research_notes/Barrido de precios por m2/`.
+- [ ] Completar el barrido de Nexo (`herramientas/nexo_barrido.py`, pausa de 12 s) cuando se
+      levante el bloqueo del 19-nov.
 - [ ] Pedir por escrito al Fondo MiVivienda:
       - si el crédito de 2022 cuenta para el límite de dos veces;
       - qué tasa e inicial aplican a un segundo crédito sin bono;
@@ -377,6 +383,28 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
       [El Comercio](https://elcomercio.pe/economia/bcr-sube-su-tasa-de-interes-a-450-por-primera-vez-desde-2023-que-efectos-tendra-noticia/)).
 - 2026-11-12: se revisa el caso del loft de 2022 con un modelo de apalancamiento. Se reabre el
   departamento de inversión en Airbnb, pendiente de los datos reales.
+- 2026-11-19: el dueño quiere invertir ya en un inmueble para alquilar y revender. Cotizó Mural
+  (T&C, Lince, con desembolso postergado) y Villa Elenia (Caral, Surquillo). Nota en
+  `research_notes/Barrido de precios por m2/mural_y_barrido_2026-11-19.md`.
+  - **Mural 1511** (40.95 m², S/ 258k ofrecido): para no perder hay que cerrar la venta en ~S/
+    286.5k (S/ 7,000 por m²) con corredor. La mediana de Lince es 6,415 de lista.
+  - **El 1D de ~43–45 m²** (modelo 15 o el 2312), por casi la misma plata, baja ese equilibrio a
+    6,500–6,700 por m².
+  - **Villa Elenia** exige ~S/ 70k propios por las cuotas antes de la entrega: peor para revender.
+  - **Riesgos:** T&C sigue en rojo para comprar en planos. Mural no tiene banco promotor y Nexo dice
+    "En excavación" con entrega en oct-2027.
+  - **Barrido:** Nexo bloqueó el de toda Lima tras 37 fichas; queda pendiente a ritmo lento.
+    Urbania no permite el acceso automático.
+  - **Tras la visita:** BBVA desembolsa con el departamento terminado; la inicial va a un
+    fideicomiso; van 11 de 23 pisos; la independización toma 12–18 meses; no se puede ceder el
+    contrato.
+    - Sin amoblar, la plata propia baja de ~S/ 49k a ~S/ 41k y el equilibrio, a ~S/ 278k.
+    - Falta en la minuta: la penalidad si el crédito no sale, la fecha de entrega, la penalidad
+      por retraso y la resolución con devolución.
+  - **Condiciones del dueño** (sin corredor, sin muebles, venta a S/ 300k en feb-2029): el 1511
+    deja ~S/ 31k netos sobre ~S/ 39k propios, ~36% anual. El equilibrio es ~S/ 267k.
+  - **Eucalipto** (Abril, JM, entrega dic-2028) solo funciona con desembolso postergado: ~20–31%
+    anual vendiendo en 2030 a S/ 7,300 por m². Con desembolso inmediato, −5% a +4%.
 - 2026-11-16: el dueño compra FIBRA Prime en Renta 4: 440 certificados a US$ 6.82 (US$ 3,000.80),
   en una sola orden. Pasa a elegir el ETF del S&P 500 en la BVL.
   - **Libro de órdenes del 16-nov.** En la tabla, "Prec. Comp." es lo que ofrecen otros
@@ -386,11 +414,36 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
     - **CSPX:** hay compradores a 811 (12) y entre 810 y 795, pero **nadie vende**. Hoy no se puede
       comprar.
     - **SPYL:** sin posturas. SPY no salió en la búsqueda.
-  - **Recomendación:** VOO ahora, con orden límite y 5 unidades a 681.06 (~US$ 3,405).
-    - Frente a CSPX pierde ~0.13 puntos al año: la retención es de 30% en vez de 15%, menos 0.04
-      puntos que VOO cobra de menos.
-    - Con 9% anual, eso es ~US$ 5 el primer año y ~US$ 440 (2.4%) a 20 años sobre US$ 3,405.
-    - Queda expuesto al estate tax por encima de US$ 60k.
+  - **Recomendación revisada el mismo día:** VOO en Renta 4, en dos órdenes límite de 5 (~US$
+    3,405 cada una). La primera se hace con lo que ya está en Renta 4 y la segunda cuando llegue
+    el resto del núcleo. Dos órdenes de 5 cuestan ~US$ 30 y una de 10, ~US$ 29.
+    - **Rompe la regla de arriba** ("Solo SPY: se mantiene SPYL en IBKR"). Esa regla es del
+      31-oct, cuando la vía BVL pasaba por Hapi y DTC con costos sin verificar. Ahora la compra
+      es directa, con el tarifario conocido. El libro muestra a alguien cotizando ~500 VOO a cada
+      lado con 0.4% de diferencia. La plata ya está en Renta 4 y IBKR no está abierto.
+    - **Patrimonio neto tras vender,** con US$ 6,900, todos los costos y la marginal de 14% (por
+      tramos en IBKR), a 7% y a 9% anual. Frente a SPYL en IBKR:
+
+      | Vía | 10 años | 20 años |
+      |---|---|---|
+      | VOO en la BVL | +2.3% / +3.0% | **+2.1% / +2.7%** (~US$ 480–890) |
+      | SPY en la BVL | +1.9% / +2.6% | +1.1% / +1.7% |
+      | CSPX en la BVL (hoy sin vendedores) | +3.8% / +4.4% | +5.3% / +5.9% |
+      | VOO, si SUNAT cobrara 14% y no 6.25% | −1.0% / −1.2% | −3.1% / −3.4% |
+
+      Modelo en el scratchpad (`tools/nucleo_vias.py`). Si en IBKR se vende todo en un año, la
+      ventaja de la BVL sube ~1.5 puntos.
+    - **Corrección:** a los dividendos de VOO se les suma el residual peruano de la tasa media.
+      Con S/ 130k brutos, 14% − 8.6% = 5.4%, así que el total es ~35% y no 30%. Frente a CSPX, VOO
+      pierde ~0.2 puntos al año (~3% a 20 años), no 0.13. Los dividendos se declaran cada año en
+      el Formulario 709: ~US$ 78 brutos al año con 10 VOO, unos US$ 4 de impuesto peruano.
+    - **Riesgos y salvaguardas:**
+      - **Estate tax:** cuando los activos de EE.UU. (VOO, acciones sueltas, Alpaca) se acerquen a
+        US$ 50k, los aportes nuevos van a CSPX o SPYL.
+      - **Exclusión:** el agente promotor de VOO es la propia BVL. Si lo excluye, se transfiere
+        por DTC (US$ 25) y se vende fuera al 14%, como en IBKR.
+      - **SUNAT:** CAVALI ya retiene 5% y la cartilla 2025 aplica el 6.25%.
+    - **CSPX:** cuando aparezca un vendedor a ≤ 1.186 × VOO, los aportes nuevos van ahí.
   - **No vale la vía de Bolsillos Llenos** (comprar en Hapi o IBKR y traer los valores a Renta 4
     por DTC) para una orden de este tamaño.
     - Ahorra ~0.6–0.8% de comisión y spread, ~US$ 25.
