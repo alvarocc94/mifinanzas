@@ -4,6 +4,71 @@
 > Fuentes: los tres informes de `reports/` y las notas de `research_notes/`. Cada cifra con su
 > fecha está allí; aquí solo va la decisión y su porqué.
 
+## Decisión vigente: v2 (2026-11-25)
+
+v1 descartaba comprar vivienda con hipoteca. El 20-nov el dueño compró el 1511 de Mural, así que
+v2 parte de tres inversiones ya hechas y reparte lo que queda.
+
+### Lo que ya está invertido
+
+| Inversión | Monto | Estado al 25-nov | Rendimiento o costo |
+|---|---|---|---|
+| Depto Mural 1511 (Lince, VIS, 40.95 m²) | S/ 25,500 de inicial (10% de S/ 255,000) | Pagada desde Pibank (S/ 3,000 el 20-nov y S/ 22,500 el 23-nov). Minuta firmada; falta la copia con firmas legalizadas. Saldo de S/ 229,500 con BBVA a más tardar el 30-sep-2027. Entrega el 30-oct-2027, prorrogable 6 meses | Vivienda propia que no se puede transferir en 5 años (Ley 32379). Detalle en la nota de Mural, §12–13 |
+| FIBRA Prime | US$ 3,000.80 (440 a US$ 6.82); ~S/ 10,400 con comisión | Comprada el 16-nov en Renta 4 | ~7.3% neto en US$ (TTM) |
+| Préstamo familiar | S/ 25,000 al 9% TEA | Desembolsado el 20-nov. Gracia total y 12 cuotas de S/ 2,218.03 del 28-feb-2027 al 28-ene-2028 | 8.55% neto del IR de 5%; vuelven S/ 26,616. Se lleva con `herramientas/prestamo_plantilla.py` |
+| **Efectivo** | **~S/ 39,100** | | Supone S/ 3.45 por dólar para la FIBRA; falta confirmar el saldo real |
+
+### Lo que cuesta el depto desde 2027
+
+- **Cuota:** S/ 229,500 a 25 años al 7.7% TEA, el supuesto de la nota de Mural, porque BBVA aún
+  no da su tasa: **S/ 1,687 más ~S/ 155 de seguros** (desgravamen e inmueble).
+  - Cada 0.5 pp de TEA mueve la cuota ~S/ 70. A 20 años sube a S/ 1,841.
+  - Al principio casi todo es interés: la primera cuota amortiza solo ~S/ 265.
+- **Mantenimiento, predial y arbitrios:** ~S/ 300 al mes, estimado y sin cotizar. Hay que pedirle
+  a T&C el mantenimiento proyectado.
+- **Total: ~S/ 2,150 al mes**, en un rango de S/ 2,000–2,400.
+- **Desde cuándo:** la primera cuota llega ~1 mes después del desembolso, o sea desde oct-2027.
+  - Si T&C usa la prórroga de 6 meses y BBVA desembolsa igual el 30-sep-2027, pagas cuotas sin
+    vivir ahí: hasta ~S/ 13k. Hay que preguntarle a BBVA si el desembolso se corre con la entrega.
+- **Frente a v1:** v1 suponía que alquilarías en Lince por S/ 1,600–2,400, así que el gasto se
+  parece. Lo que cambia es tu presupuesto, porque hoy aportas S/ 1,500 en casa de tus padres:
+  - si al mudarte dejas ese aporte, tu gasto de vivienda sube ~S/ 650 al mes;
+  - si lo mantienes, sube los S/ 2,150 completos.
+- **Las cuotas del préstamo** (S/ 2,218 al mes) casi igualan el costo del depto. Las últimas
+  cuatro (oct-2027 a ene-2028) coinciden con las primeras cuotas de la hipoteca.
+
+### El efectivo, por orden de prioridad
+
+**Regla:** hasta que BBVA apruebe el crédito en firme, con la tasación hecha, el dinero que se
+necesita antes de oct-2027 no va a activos que puedan caer 20–30%.
+- **Postergar la bolsa ~10 meses cuesta poco:** ~S/ 300 de retorno esperado (S/ 19k × 2 pp ×
+  0.8 años).
+- **Vender VOO tras una caída de 20% para pagar el cierre cuesta ~S/ 4k.** Y si el saldo no se
+  paga, aplica la penalidad de 10% (S/ 25,500).
+- **Ejemplo de este mes:** SPY cayó 9.2% entre el 11 y el 20-nov.
+
+| # | Bloque | Monto | Dónde | Para qué |
+|---|---|---|---|---|
+| 1 | Reserva | S/ 20,000 | S/ 10,000 en Pibank y S/ 10,000 en un DPF a 361 días en Financiera Confianza (5.00%, solo en oficinas, campaña hasta el 30-nov; reverificar antes de ir) | Cubre ~9 meses del depto si se corta tu ingreso. Con hipoteca, la reserva es lo que evita atrasarse en la cuota, así que va primero |
+| 2 | Fondo del depto | ~S/ 19,100 | DPF en soles que venza antes del 1-sep-2027 (~270 días), en una entidad A- con FSD | **Cierre** (notaría, registros, tasación): ~S/ 4,000. **Imprevistos del crédito:** ~S/ 7,000. BBVA presta 90% de la tasación, así que cada 1% que tase por debajo de S/ 255,000 son S/ 2,295 de tu bolsillo; también cubre cuotas pagadas antes de mudarte. **Equipamiento:** ~S/ 8,000, porque la minuta no incluye terma ni luminarias; más cortinas, línea blanca y lo básico. Lo que sobre tras la mudanza pasa al núcleo |
+| 3 | Núcleo indexado | S/ 0 hoy | Las cuotas del préstamo se juntan en Pibank. Con ~S/ 12,000 (US$ 3,500, el piso de comisión de Renta 4) va una orden de **VOO en la BVL** (ver Historial, 2026-11-16) | Primera orden cuando haya ~S/ 12k (~jul-2027) **y** BBVA haya aprobado el crédito por S/ 229,500; si no, tras el desembolso. La segunda, con el resto de las cuotas (~ene-2028) |
+| 4 | Trading | S/ 0 por ahora; tope de S/ 6,500, como en v1 | Como en v1, después de 8 semanas en paper | Solo después de la primera orden del núcleo, y nunca con plata de la reserva ni del fondo del depto. Ver NVIDIA en el Historial (2026-11-25) |
+| — | FIBRA Prime | Sin aportes nuevos | Renta 4 | Con el depto ya hay exposición inmobiliaria de Lima de sobra. Sus distribuciones (~US$ 17 al mes) se acumulan en Renta 4 |
+
+- **Prepagar la hipoteca** rinde su TEA (≈7.7%) sin riesgo. Es más que un DPF (~5%) y se parece a
+  lo esperado de VOO en dólares (~7%), que sí tiene riesgo. Se decide en 2028, con la tasa real y
+  después de la compra de deuda que planeas tras la independización.
+- **IR de los intereses:** la exoneración para depósitos vence el 31-dic-2026.
+  - El Ejecutivo y el Congreso tienen proyectos para extenderla a 2029. La Comisión de Economía
+    aprobó uno, pero aún no es ley
+    ([Revista Economía](https://www.revistaeconomia.com/impuesto-a-la-renta-ahorros/),
+    [Caretas](https://caretas.pe/?p=831829), nov-2026).
+  - Si no se prorroga, los DPF pagan 5% de IR sobre los intereses desde 2027: el 5.00% pasa a
+    4.75%. No cambia el orden.
+- **Por moneda:** hoy casi todo está en soles. Solo la FIBRA (~10%) está en dólares, frente al ~40%
+  de v1. La hipoteca está en soles, igual que tu sueldo, así que no hay descalce. El peso en dólares
+  vuelve a subir con el núcleo desde 2027.
+
 ## Propuesta inicial del dueño (2026-10-29)
 
 | Bloque | Monto |
@@ -13,7 +78,7 @@
 | ETFs | S/ 20,000 |
 | Trading | S/ 10,000 |
 
-## Decisión v1 (2026-10-31)
+## Decisión v1 (2026-10-31), reemplazada por v2
 
 | Bloque | Monto | Dónde | Por qué |
 |---|---|---|---|
@@ -28,7 +93,10 @@ Por moneda: ~S/ 60k en soles (reserva y fondo de vivienda) y ~S/ 40k en dólares
 trading). Tu sueldo y tu vivienda futura están en soles, así que la renta variable va en dólares
 sin cubrir y la parte defensiva queda en soles.
 
-## Por qué no se compra vivienda ahora
+## Por qué v1 no compraba vivienda (registro)
+
+> **Superada el 20-nov-2026:** el dueño compró el 1511 de Mural (ver v2). Esta sección queda
+> como registro del razonamiento de v1.
 
 - **Puedes volver a usar el crédito MiVivienda, pero no el bono.** El Fondo financia como
   máximo dos veces a una persona, y "solo el primer crédito… podrá contar con el subsidio"
@@ -276,6 +344,24 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 
 ## Calendario
 
+Vigente desde el 25-nov-2026 (v2):
+
+| Cuándo | Qué |
+|---|---|
+| **Lun 30-nov-2026** | Último día de la campaña de Financiera Confianza: DPF de S/ 10,000 a 361 días para la reserva (5.00%, solo en oficinas). Reverificar la tasa antes de ir |
+| Dic-2026 | Abrir el DPF del fondo del depto (~S/ 19,100) que venza antes del 1-sep-2027. Pedir a T&C la copia de la minuta con firmas legalizadas, la respuesta al correo del 23-nov y el mantenimiento proyectado. Renta 4: registrar una cuenta en dólares |
+| 31-dic-2026 | Vence la exoneración del IR sobre intereses de depósitos, salvo prórroga |
+| 28-feb-2027 | Primera cuota del préstamo (S/ 2,218.03), que se anota en la hoja Pagos. Las cuotas se juntan en Pibank para el núcleo |
+| May–jun 2027 | Solicitud formal a BBVA: pasar de la precalificación a la aprobación, con TEA, seguros y tasación por escrito. Preguntar si el desembolso se corre si se prorroga la entrega |
+| ~Jul-2027 | Con ~S/ 12k de cuotas juntadas y el crédito aprobado, primera orden de VOO en la BVL |
+| 30-sep-2027 | Límite para pagar el saldo de S/ 229,500 con BBVA. El cierre (~S/ 4,000) sale del fondo del depto |
+| 30-oct-2027 | Entrega, prorrogable hasta el 30-abr-2028. Empieza la cuota de ~S/ 1,840 más ~S/ 300 de mantenimiento |
+| 28-ene-2028 | Última cuota del préstamo. Segunda orden de VOO con lo que haya |
+| 2028–2029 | Independización (hasta 24 meses tras la entrega) y compra de deuda si la tasa de BBVA es alta. Decidir si se prepaga la hipoteca |
+| Dos semanas antes de cada vencimiento de DPF | Alarma: decidir la renovación a mano, nunca en automático |
+
+Calendario de v1 (registro):
+
 | Cuándo | Qué |
 |---|---|
 | **Jue 12 – dom 15-nov-2026** | Feria Nexo Inmobiliario (Costa Verde, Magdalena, 11:00–21:00), para cotizar y no para comprar. Hay 7 proyectos para cotizar y un checklist en el informe "Proyectos de departamentos en Lima Moderna". Solo se separa si una unidad cumple las cinco condiciones, y se decide antes del 17-nov |
@@ -289,6 +375,18 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
 
 ## Verificaciones pendientes
 
+- [ ] Confirmar cuánto efectivo queda, en qué moneda y dónde. v2 supone ~S/ 39,100 en soles.
+- [ ] Confirmar cuánto ahorras al mes y si seguirás aportando S/ 1,500 en casa de tus padres
+      después de mudarte. Con eso se sabe si el sueldo cubre el depto desde oct-2027 o si hacen
+      falta las cuotas del préstamo.
+- [ ] BBVA: pasar de la precalificación a la aprobación. Pedir por escrito:
+      - la TEA, la TCEA y los seguros;
+      - el costo de la tasación y de la carta fianza para T&C;
+      - si el desembolso se corre cuando la entrega se prorroga.
+- [ ] T&C, por escrito:
+      - la copia de la minuta con firmas legalizadas;
+      - la respuesta al correo del 23-nov (reciprocidad de la penalidad y el BBP de 2022);
+      - el mantenimiento mensual proyectado.
 - [x] Tasa marginal del dueño: ingreso bruto de ~S/ 130,000 al año (2026-10-31), así que la
       marginal es 14% y el ETF es SPYL. Revisar si pasa de ~S/ 148,500.
 - [x] Venta del loft: exenta como casa habitación y tramitada en notaría (confirmado por el
@@ -455,6 +553,29 @@ Binance Earn, si se usa, va dentro del presupuesto de riesgo (como el trading), 
     - Sigue sin verificarse que la transferencia funcione.
     - Se revisa solo si los aportes futuros son chicos y frecuentes.
 - 2026-11-12: se anotan los costos y el impuesto de las acciones de EE.UU. en Renta 4.
-  - NVIDIA cayó ~34% desde su máximo del 5-oct, tras la renuncia de Jensen Huang el 12-nov
+  - NVIDIA cayó ~34% desde su máximo del 6-oct, tras la renuncia de Jensen Huang el 12-nov
     ([Fortune](https://fortune.com/2026/11/12/jensen-huang-downfall-is-nvidia-a-buy-or-sell/)).
   - No cambia el plan: compras sueltas solo dentro del experimento de trading.
+- 2026-11-25: **plan v2.**
+  - **Tres inversiones hechas:**
+    - la inicial de Mural 1511 (S/ 25,500);
+    - la FIBRA (US$ 3,000.80);
+    - un préstamo familiar de S/ 25,000 al 9% TEA.
+  - Quedan ~S/ 39,100 en efectivo.
+  - **El depto costará ~S/ 2,150 al mes desde oct-2027.** El efectivo va primero a la reserva
+    (S/ 20k) y al fondo del depto (~S/ 19k). El núcleo se arma desde 2027 con las cuotas del
+    préstamo, y el trading espera.
+  - **NVIDIA** (cierres de Alpaca SIP):
+    - máximo de US$ 239.24 el 6-oct;
+    - Huang renunció el 12-nov;
+    - mínimo de US$ 125.53 el 20-nov (−47.5%);
+    - Huang fue restituido el 23-nov y la acción subió 31.5% en el día;
+    - al 25-nov cierra en US$ 149.30.
+    ([CNBC, 23-nov](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)).
+  - **Todo el salto fue en la apertura,** +33% sobre el cierre del viernes. Quien compró al abrir,
+    ya con la noticia, perdía 10.6% dos sesiones después.
+  - **Las dos ideas del dueño ya las probó Quantac** (`IDEAS.md` de `exp/event-drift`), todas KILL:
+    - subirse a la ola tras la noticia: #7, #8 y #16;
+    - valorar con estados financieros y comprar con margen de seguridad: #9.
+  - **No cambia el plan.** Una compra suelta de NVIDIA va dentro del bloque de trading, después
+    del núcleo. Además, US$ 3,000 (~S/ 10.4k) pasa el tope de ese bloque, que es S/ 6,500.

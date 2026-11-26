@@ -11,7 +11,7 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
 | 2 | Inmuebles: departamentos en Lima y terrenos con potencial de valorización | [informe](reports/Inversi%C3%B3n%20inmobiliaria%20en%20Lima%20y%20Per%C3%BA.md) | ✅ 2026-10-31 |
 | 3 | Bolsa desde Perú: ETFs y trading (brokers, impuestos, costos) | [informe](reports/Invertir%20en%20bolsa%20desde%20Per%C3%BA.md) | ✅ 2026-10-31 · actualizado con Bolsillos Llenos |
 | 2b | ¿Puedo volver a usar MiVivienda? | [notas](research_notes/Recompra%20de%20vivienda%20tras%20usar%20Mivivienda/mivivienda_reacceso.md) · resumen en el informe 2 | ✅ 2026-10-31 · crédito sí, bono no |
-| 4 | Asignación de los S/ 100,000 | [PLAN.md](PLAN.md) | ✅ v1 2026-10-31 |
+| 4 | Asignación de los S/ 100,000 | [PLAN.md](PLAN.md) | ✅ v1 2026-10-31 · v2 2026-11-25 (con Mural) |
 | 5 | Qué SAB usar para FIBRA Prime, y SPYL en la BVL | [notas](research_notes/Elegir%20SAB/sab_fibra_y_via_bvl.md) · resumen en PLAN.md | ✅ 2026-11-07 · Renta 4; SPYL por confirmar |
 | 5b | Fondos mutuos en Renta 4 (Blum USA 500, fondos de liquidez) | [notas](research_notes/Elegir%20SAB/fondos_mutuos_renta4.md) | ✅ 2026-11-12 · no para el núcleo |
 | 6 | Proyectos de 2 dormitorios para la feria Nexo (nov-2026) | [informe](reports/Proyectos%20de%20departamentos%20en%20Lima%20Moderna.md) | ✅ 2026-11-12 · cotizar, no comprar |
@@ -66,3 +66,14 @@ desde Perú. Contexto y reglas en [CLAUDE.md](CLAUDE.md); decisión vigente en [
   - **Riesgo:** T&C sigue en rojo y Mural no tiene banco promotor.
   - **Barrido de Nexo:** sus términos (3.2) prohíben la extracción automatizada. Se retiró y se
     restauró a pedido del dueño (`herramientas/`); usarlo es decisión suya.
+- **2026-11-20 a 25-nov:** compra de Mural 1511 a S/ 255,000.
+  - Inicial de S/ 25,500 pagada y minuta firmada; el saldo va con BBVA al 30-sep-2027.
+  - Préstamo familiar de S/ 25,000 al 9% TEA, con su plantilla en `herramientas/`.
+- **2026-11-25:** **PLAN v2.**
+  - **Efectivo:** quedan ~S/ 39,100. Va a la reserva (S/ 20k) y a un fondo del depto (~S/ 19k:
+    cierre, imprevistos de la tasación y equipamiento).
+  - **Núcleo (VOO):** se arma con las cuotas del préstamo desde 2027, cuando BBVA apruebe el
+    crédito. El trading espera.
+  - **Depto:** costará ~S/ 2,150 al mes desde oct-2027.
+  - **NVIDIA:** las dos ideas del dueño (subirse a la ola de una noticia, comprar por debajo del
+    valor según los estados financieros) ya estaban probadas en Quantac, y las dos fueron KILL.
