@@ -312,3 +312,151 @@ Supuestos:
   ruido de reuniones, tránsito y riesgo de filtraciones. Si encima hay solo losa o zonas sin
   uso, el último piso es una ventaja: más luz, nadie encima y más rapidez para venderse.
 - **Alternativa:** la misma tipología de 1D y 2 baños en un piso 19–22, por debajo de la azotea.
+
+## 12. Lista de precios por piso y promo de inicial (2026-11-20)
+
+Fuente: lista de precios y proforma N° 003950 del 19-nov que T&C le pasó al dueño (capturas,
+fuera del repo).
+- **El descuento de la proforma es 7.00%,** no 6%: lista 277,408.82, precio 258,000.
+- **En Mural los pisos bajos cuestan más,** al revés de lo usual. Cada piso que se sube baja el
+  precio:
+  - S/ 1,457 en la línea x12 (43.48 m², 1D y 2 baños, el modelo 15 según T&C);
+  - S/ 1,386 en la línea x11 (40.95 m²).
+- **Lista de la línea x12** (confirmada por el dueño el 20-nov):
+  - 2312: 280,818, como ya se usó en §9;
+  - 2212: 282,275;
+  - de ahí baja hasta el 1112: 298,307;
+  - el 1812 ya está separado.
+- **El "desde" de Nexo para el modelo 15 (275,202) no aparece en la lista de T&C.** La fila
+  "Modelo 15, piso bajo" de §9 no corresponde a ninguna unidad disponible.
+- **Línea x11:** 911 y del 1111 al 1511. Además está el 811, de 43.68 m², a S/ 307,354.
+
+Flip con lista −7%, condiciones del dueño (sin corredor ni muebles, venta en feb-2029) e inicial de
+10% (modelo: `tools/mural_unidades.py` en el scratchpad). Ganancia neta entre paréntesis:
+
+| Unidad | Precio −7% | S/ por m² | Venta en 300k | Venta en 305k | Venta a 7,326 por m² (318.5k) | Equilibrio |
+|---|---|---|---|---|---|---|
+| 1511 | 258,000 | 6,300 | +36.3% (31.0k) | — | — | 267.4k |
+| 1411 | 259,289 | 6,332 | +34.8% (29.6k) | — | — | 268.8k |
+| 2312 (último piso) | 261,171 | 6,007 | +33.4% (28.3k) | +38.1% (33.1k) | +50.2% (45.9k) | 270.2k |
+| 2212 | 262,526 | 6,038 | +31.8% (26.9k) | +36.6% (31.6k) | +48.7% (44.5k) | 271.7k |
+| 2112 | 263,882 | 6,069 | +30.1% (25.4k) | +35.0% (30.2k) | +47.2% (43.1k) | 273.2k |
+| 1912 | 266,593 | 6,131 | +26.9% (22.6k) | +31.8% (27.3k) | +44.1% (40.2k) | 276.2k |
+| 1512 | 272,015 | 6,256 | +20.3% (16.9k) | +25.3% (21.6k) | +38.1% (34.5k) | 282.2k |
+| 1112 | 277,436 | 6,381 | +13.6% (11.2k) | +18.8% (15.9k) | +32.0% (28.8k) | 288.3k |
+
+- **1511 frente al 2212:**
+  - Si los dos se venden en 300k, el 2212 empata solo si se compra en ~258.7k (8.4% de
+    descuento).
+  - Si el 2212 se vende en 305k, como cree el dueño ("un poquito más y más rápido"), ya empata con
+    el 7% (262.5k) y gana con cualquier descuento mayor.
+- **Vender más rápido vale poco si el departamento sigue alquilado.** Si el 1511 se vende tres meses
+  después (may-2029), pierde solo ~S/ 0.7k de ganancia (la TIR baja de 36% a 31%). Si hay que
+  desocuparlo para venderlo, cada mes vacío cuesta ~S/ 1.9k (cuota, seguros y predial).
+- **2312:** está debajo de la azotea, donde Nexo lista parrillas, terraza y piscina (§11).
+- **Promo de inicial.** Hoy la inicial es de 10%. Desde mañana pasa a 20%: 10% al firmar y otro 10%
+  en 6 cuotas (dic-2026 a may-2027). Para el 1511:
+
+  | | 10% hoy | 20% |
+  |---|---|---|
+  | Plata propia | 39.2k | 61.8k |
+  | Ganancia | 31.0k | 33.8k |
+  | TIR | +36% | +25% |
+
+  - En valor presente, el 20% sale +S/ 182 descontando al 5.37% (DPF neto) y −S/ 1,196 al 8.55%
+    (préstamo familiar neto).
+  - La promo vale poco en plata: medio punto más de descuento la compensa. Su valor real está en
+    la liquidez y en tener menos plata en riesgo antes de la entrega.
+- **Valorización de Lince** (BCRP, oferta de todas las antigüedades, en soles con el tipo de cambio
+  bancario promedio de cada trimestre):
+  - **En soles:** S/ 5,100 por m² en 2016, 6,913 en 2022 (el pico), 6,643 en 2025 y 6,414 en
+    T1-2026. De 2016 a 2025 subió +3.0% al año, igual que San Miguel y Jesús María.
+  - **En dólares sigue subiendo:** de US$ 1,803 en 2022 a US$ 1,894 en T1-2026. La caída en soles
+    es la apreciación del sol.
+  - **Qué exige vender en 300k:** son 7,326 por m², un 14% sobre la mediana de hoy, así que todo
+    depende de la prima por ser nuevo. El equilibrio del 1511 (6,530 por m²) está casi en la
+    mediana actual.
+
+## 13. Minuta modelo y régimen VIS (revisada el 2026-11-20)
+
+T&C mandó como "modelo" la minuta firmada de otro comprador (departamento 1012, versión del
+15-jul-2026, firmada el 30-oct-2026). Trae datos personales de esa persona, así que el PDF no se
+guarda en el repo y aquí no se copia ninguno.
+
+- **La venta es VIS.** El título es "Minuta compraventa - VIS". El comprador firma una declaración
+  jurada de que cumple los requisitos de acceso a la VIS (Anexo D). La cláusula 12.B deja que la
+  vendedora resuelva el contrato si no los cumple.
+- **Ley 32379, art. 5** (El Peruano, 11-jun-2025; texto oficial leído el 2026-11-20). Son
+  condiciones para acceder a la VIS:
+  - a) no ser propietario de vivienda, terreno ni aires;
+  - b) "no ser beneficiario de otro apoyo habitacional por parte del Estado";
+  - c) valores máximos;
+  - d) "La VIS no debe ser objeto de algún acto de transferencia de dominio hasta por el plazo de
+    cinco años", contados desde que se inscribe la compraventa. La restricción se inscribe en
+    SUNARP y la supervisa el Fondo MIVIVIENDA.
+  - El texto no distingue según cómo se financie la compra.
+  - [Ley 32379](https://busquedas.elperuano.pe/dispositivo/NL/2408533-1)
+- **Proyecto de reglamento (RM 269-2026-VIVIENDA, publicada el 19-jul-2026), art. 21.2:** durante
+  esos 5 años no se puede transferir, hay que "habitar exclusivamente la VIS" y no se puede
+  arrendar. Al 26-sep-2026 no estaba aprobado
+  ([El Peruano, 21-jul-2026](https://elperuano.pe/noticia/300761-no-se-podra-transferir-ni-poner-en-alquiler-viviendas-de-interes-social-durante-cinco-anos);
+  [EximiaHaus, 27-sep-2026](https://eximiahaus.pe/blog/ley-32379-vivienda-de-interes-social-que-cambia-2026)).
+  - Mientras tanto rige el DS 005-2025-VIVIENDA. Su art. 19.1 repite los requisitos a) y c). Su
+    art. 8 trata del alcance de los proyectos, no de requisitos, aunque la minuta lo cita como si
+    los tuviera.
+- **Consecuencia para el flip:** vender en feb-2029 no es posible. Los 5 años corren desde la
+  inscripción, y la independización puede tardar hasta 24 meses tras la entrega (cl. 7). El modelo
+  de §9 a §12 solo vale si se compra para vivir 5 años o más.
+- **El requisito b) es dudoso para el dueño.** Recibió el BBP en 2022 y lo devolvió al vender, y
+  la ley no aclara si eso cuenta. Hay que confirmarlo por escrito antes de firmar la declaración
+  jurada.
+- **Precio del 1012:** S/ 284,775.72. Sale de la lista del 1112 (298,307) más un piso
+  (+1,457 ≈ 299,764) con **5.0% de descuento**.
+  - Forma de pago: 10% al firmar (separación de 2,000 y el saldo 6 días después), otro 10% en 10
+    cuotas de nov-2026 a ago-2027 y 80% de crédito hipotecario a más tardar el 30-sep-2027.
+  - Entrega: 30-oct-2027.
+- **Cláusulas en contra del comprador:**
+  - **Precio y pagos:**
+    - mora automática;
+    - los adelantos se devuelven sin intereses si el contrato se resuelve por cualquier causa (cl. 3);
+    - si el área real difiere hasta 2.49% no hay compensación, y si es menor, la compensación se paga
+      después de la entrega (cl. 9);
+    - todos los gastos notariales y registrales los paga el comprador (cl. 14).
+  - **Incumplimiento:** si el comprador incumple un pago o la fianza del banco, la vendedora puede
+    resolver el contrato sola y quedarse con **10% del precio** (cl. 12). No hay penalidad ni
+    derecho a resolver a favor del comprador.
+  - **Obra y entrega:**
+    - el comprador autoriza de antemano cualquier cambio al proyecto (cl. 6);
+    - la entrega se puede prorrogar 6 meses sin causa, y más por fuerza mayor o atrasos de
+      proveedores; la única compensación es suspender los pagos (cl. 10);
+    - no se puede rechazar la entrega por obras pendientes en áreas comunes (cl. 10).
+  - **Inscripción y cesión:**
+    - la independización puede tardar hasta 24 meses tras la entrega (cl. 7);
+    - el comprador da un poder irrevocable al procurador de la vendedora para firmar minutas
+      "modificatorias o aclaratorias" (cl. 7);
+    - la vendedora puede ceder su posición a un tercero, pero no hay cesión a favor del comprador
+      (cl. 17).
+  - **Otros:**
+    - la vendedora puede usar gratis las áreas comunes para publicidad y oficina de ventas (cl. 15);
+    - el comprador debe reportar sus consumos al FMV durante 24 meses (cl. 16).
+- **Datos del proyecto:**
+  - **Vendedora:** Sarasota Real Estate Group S.A.C., RUC 20611195843.
+  - **Terreno:** partida 40662820. La vendedora puede hipotecarlo a favor de quien financie el
+    proyecto (cl. 9).
+  - **Licencia:** la minuta solo cita un anteproyecto aprobado por revisor urbano (AE-II-0121,
+    ITF E-C-2024-0005856), no la licencia de edificación.
+  - **Pagos:** se depositan en una cuenta BBVA de la vendedora.
+  - **Acabados:** no incluyen terma ni luminarias.
+- **Oferta final de T&C por el 1511 (2026-11-20, según el dueño):** S/ 255,000. Es 8.1% menos que
+  la lista de 277,409 y sale a 6,227 por m².
+  - Recomendación: como inversión no conviene, por la restricción VIS.
+  - Para vivir 5 años o más podría servir, pero solo con confirmación escrita de que el dueño
+    califica pese al BBP de 2022.
+- **Decisión (2026-11-20):** el dueño separó el 1511 a S/ 255,000 con S/ 3,000 y sigue adelante.
+  - Asume como propio el riesgo de no poder transferir durante 5 años.
+  - T&C confirmó por correo que devuelve la inicial si el banco deniega el crédito o si el dueño
+    no califica como VIS.
+  - Plazos: S/ 22,500 de saldo de la inicial al 23-nov; minuta hasta el 30-nov; S/ 229,500 con
+    crédito al 30-sep-2027.
+  - Los documentos de la compra y las observaciones a la minuta están en Google Drive:
+    `G:\Mi unidad\Compra depto Mural 1511\`.
